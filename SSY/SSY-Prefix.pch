@@ -11,4 +11,7 @@
 #ifdef __OBJC__
     #import <UIKit/UIKit.h>
     #import <Foundation/Foundation.h>
+    #import "SSY.h"
+    #import "GAITrackedViewController.h"
+    #import "MBProgressHUD.h"
 #endif

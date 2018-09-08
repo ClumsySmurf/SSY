@@ -1,0 +1,2279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Poses</key>
+	<array>
+		<dict>
+			<key>Unlocked</key>
+			<false/>
+			<key>Name</key>
+			<string>Mountain</string>
+			<key>Effect</key>
+			<string>N</string>
+			<key>Category</key>
+			<string>Standing</string>
+			<key>Image</key>
+			<string>Mountain</string>
+			<key>Video</key>
+			<string>Mountain</string>
+			<key>Length</key>
+			<string>37</string>
+			<key>App</key>
+			<string>com.ssy.Mountain</string>
+			<key>Price</key>
+			<string>$0.99</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Triangle</string>
+			<key>Unlocked</key>
+			<false/>
+			<key>Effect</key>
+			<string>E</string>
+			<key>Category</key>
+			<string>Standing</string>
+			<key>Image</key>
+			<string>Triangle</string>
+			<key>Video</key>
+			<string>Triangle</string>
+			<key>Length</key>
+			<string>71</string>
+			<key>App</key>
+			<string>com.ssy.Triangle</string>
+			<key>Price</key>
+			<string>$0.99</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Warrior Two</string>
+			<key>Effect</key>
+			<string>E</string>
+			<key>Category</key>
+			<string>Standing</string>
+			<key>Image</key>
+			<string>Warrior Two</string>
+			<key>Video</key>
+			<string>Warrior 2</string>
+			<key>Unlocked</key>
+			<false/>
+			<key>Length</key>
+			<string>65</string>
+			<key>App</key>
+			<string>com.ssy.WarriorTwo</string>
+			<key>Price</key>
+			<string>$0.99</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Rag Doll</string>
+			<key>Effect</key>
+			<string>C</string>
+			<key>Category</key>
+			<string>Standing</string>
+			<key>Image</key>
+			<string>Rag Doll</string>
+			<key>Video</key>
+			<string>Rag Doll</string>
+			<key>Unlocked</key>
+			<false/>
+			<key>Length</key>
+			<string>51</string>
+			<key>App</key>
+			<string>com.ssy.RagDoll</string>
+			<key>Price</key>
+			<string>$0.99</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Chair</string>
+			<key>Effect</key>
+			<string>E</string>
+			<key>Category</key>
+			<string>Standing</string>
+			<key>Image</key>
+			<string>Chair</string>
+			<key>Video</key>
+			<string>Chair</string>
+			<key>Unlocked</key>
+			<false/>
+			<key>Length</key>
+			<string>49</string>
+			<key>App</key>
+			<string>com.ssy.Chair</string>
+			<key>Price</key>
+			<string>$0.99</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Tree</string>
+			<key>Effect</key>
+			<string>E</string>
+			<key>Category</key>
+			<string>Standing</string>
+			<key>Image</key>
+			<string>Tree</string>
+			<key>Video</key>
+			<string>Tree</string>
+			<key>Unlocked</key>
+			<false/>
+			<key>Length</key>
+			<string>79</string>
+			<key>App</key>
+			<string>com.ssy.Tree</string>
+			<key>Price</key>
+			<string>$0.99</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Eagle</string>
+			<key>Effect</key>
+			<string>E</string>
+			<key>Category</key>
+			<string>Standing</string>
+			<key>Image</key>
+			<string>Eagle</string>
+			<key>Video</key>
+			<string>Eagle</string>
+			<key>Unlocked</key>
+			<false/>
+			<key>Length</key>
+			<string>76</string>
+			<key>App</key>
+			<string>com.ssy.Eagle</string>
+			<key>Price</key>
+			<string>$0.99</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Standing V</string>
+			<key>Effect</key>
+			<string>C</string>
+			<key>Category</key>
+			<string>Standing</string>
+			<key>Image</key>
+			<string>Standing V</string>
+			<key>Video</key>
+			<string>Standing V</string>
+			<key>Unlocked</key>
+			<false/>
+			<key>Length</key>
+			<string>59</string>
+			<key>App</key>
+			<string>com.ssy.StandingV</string>
+			<key>Price</key>
+			<string>$0.99</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Mosquito</string>
+			<key>Effect</key>
+			<string>E</string>
+			<key>Category</key>
+			<string>Standing</string>
+			<key>Image</key>
+			<string>Mosquito</string>
+			<key>Video</key>
+			<string>Mosquito</string>
+			<key>Unlocked</key>
+			<false/>
+			<key>Length</key>
+			<string>77</string>
+			<key>App</key>
+			<string>com.ssy.Mosquito</string>
+			<key>Price</key>
+			<string>$0.99</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Warrior One</string>
+			<key>Effect</key>
+			<string>E</string>
+			<key>Category</key>
+			<string>Standing</string>
+			<key>Image</key>
+			<string>Warrior One</string>
+			<key>Video</key>
+			<string>Warrior 1</string>
+			<key>Unlocked</key>
+			<false/>
+			<key>Length</key>
+			<string>77</string>
+			<key>App</key>
+			<string>com.ssy.WarriorOne</string>
+			<key>Price</key>
+			<string>$0.99</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Frog</string>
+			<key>Effect</key>
+			<string>E</string>
+			<key>Category</key>
+			<string>Standing</string>
+			<key>Image</key>
+			<string>Frog</string>
+			<key>Video</key>
+			<string>Frog</string>
+			<key>Unlocked</key>
+			<false/>
+			<key>Length</key>
+			<string>24</string>
+			<key>App</key>
+			<string>com.ssy.Frog</string>
+			<key>Price</key>
+			<string>$0.99</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Pretzel</string>
+			<key>Effect</key>
+			<string>C</string>
+			<key>Category</key>
+			<string>Sitting</string>
+			<key>Image</key>
+			<string>Pretzel</string>
+			<key>Video</key>
+			<string>Pretzel</string>
+			<key>Unlocked</key>
+			<false/>
+			<key>Length</key>
+			<string>76</string>
+			<key>App</key>
+			<string>com.ssy.Pretzel</string>
+			<key>Price</key>
+			<string>$0.99</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>L Pose</string>
+			<key>Effect</key>
+			<string>C</string>
+			<key>Category</key>
+			<string>Sitting</string>
+			<key>Image</key>
+			<string>L Pose</string>
+			<key>Video</key>
+			<string>L Pose</string>
+			<key>Unlocked</key>
+			<false/>
+			<key>Length</key>
+			<string>56</string>
+			<key>App</key>
+			<string>com.ssy.LPose</string>
+			<key>Price</key>
+			<string>$0.99</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>V Pose</string>
+			<key>Effect</key>
+			<string>C</string>
+			<key>Category</key>
+			<string>Sitting</string>
+			<key>Image</key>
+			<string>V Pose</string>
+			<key>Video</key>
+			<string>V Pose</string>
+			<key>Unlocked</key>
+			<false/>
+			<key>Length</key>
+			<string>46</string>
+			<key>App</key>
+			<string>com.ssy.VPose</string>
+			<key>Price</key>
+			<string>$0.99</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Butterfly</string>
+			<key>Effect</key>
+			<string>C</string>
+			<key>Category</key>
+			<string>Sitting</string>
+			<key>Image</key>
+			<string>Butterfly</string>
+			<key>Video</key>
+			<string>Butterfly</string>
+			<key>Unlocked</key>
+			<false/>
+			<key>Length</key>
+			<string>45</string>
+			<key>App</key>
+			<string>com.ssy.Butterfly</string>
+			<key>Price</key>
+			<string>$0.99</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Big Butterfly</string>
+			<key>Effect</key>
+			<string>E</string>
+			<key>Category</key>
+			<string>Sitting</string>
+			<key>Image</key>
+			<string>Big Butterfly</string>
+			<key>Video</key>
+			<string>Big Butterfly</string>
+			<key>Unlocked</key>
+			<false/>
+			<key>Length</key>
+			<string>52</string>
+			<key>App</key>
+			<string>com.ssy.BigButterfly</string>
+			<key>Price</key>
+			<string>$0.99</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Turtle</string>
+			<key>Effect</key>
+			<string>C</string>
+			<key>Category</key>
+			<string>Sitting</string>
+			<key>Image</key>
+			<string>Turtle</string>
+			<key>Video</key>
+			<string>Turtle</string>
+			<key>Unlocked</key>
+			<false/>
+			<key>Length</key>
+			<string>55</string>
+			<key>App</key>
+			<string>com.ssy.Turtle</string>
+			<key>Price</key>
+			<string>$0.99</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Cow</string>
+			<key>Effect</key>
+			<string>C</string>
+			<key>Category</key>
+			<string>Sitting</string>
+			<key>Image</key>
+			<string>Cow</string>
+			<key>Video</key>
+			<string>Cow</string>
+			<key>Unlocked</key>
+			<false/>
+			<key>Length</key>
+			<string>87</string>
+			<key>App</key>
+			<string>com.ssy.Cow</string>
+			<key>Price</key>
+			<string>$0.99</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Flower</string>
+			<key>Effect</key>
+			<string>E</string>
+			<key>Category</key>
+			<string>Sitting</string>
+			<key>Image</key>
+			<string>Flower</string>
+			<key>Video</key>
+			<string>Flower</string>
+			<key>Unlocked</key>
+			<false/>
+			<key>Length</key>
+			<string>42</string>
+			<key>App</key>
+			<string>com.ssy.Flower</string>
+			<key>Price</key>
+			<string>$0.99</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Half Butterfly</string>
+			<key>Effect</key>
+			<string>C</string>
+			<key>Category</key>
+			<string>Sitting</string>
+			<key>Image</key>
+			<string>Half Butterfly</string>
+			<key>Video</key>
+			<string>Half Butterfly</string>
+			<key>Unlocked</key>
+			<true/>
+			<key>Length</key>
+			<string>90</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Sailboat</string>
+			<key>Effect</key>
+			<string>N</string>
+			<key>Category</key>
+			<string>Sitting</string>
+			<key>Image</key>
+			<string>Sailboat</string>
+			<key>Video</key>
+			<string>Sailboat</string>
+			<key>Unlocked</key>
+			<true/>
+			<key>Length</key>
+			<string>95</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Downward Dog</string>
+			<key>Effect</key>
+			<string>N</string>
+			<key>Category</key>
+			<string>Floor</string>
+			<key>Image</key>
+			<string>Downward Dog</string>
+			<key>Video</key>
+			<string>Downward Dog</string>
+			<key>Unlocked</key>
+			<false/>
+			<key>Length</key>
+			<string>46</string>
+			<key>App</key>
+			<string>com.ssy.DownwardDog</string>
+			<key>Price</key>
+			<string>$0.99</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Cat</string>
+			<key>Effect</key>
+			<string>N</string>
+			<key>Category</key>
+			<string>Floor</string>
+			<key>Image</key>
+			<string>Cat</string>
+			<key>Video</key>
+			<string>Cat</string>
+			<key>Unlocked</key>
+			<false/>
+			<key>Length</key>
+			<string>37</string>
+			<key>App</key>
+			<string>com.ssy.Cat</string>
+			<key>Price</key>
+			<string>$0.99</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Crane</string>
+			<key>Effect</key>
+			<string>E</string>
+			<key>Category</key>
+			<string>Floor</string>
+			<key>Image</key>
+			<string>Crane</string>
+			<key>Video</key>
+			<string>Crane</string>
+			<key>Unlocked</key>
+			<false/>
+			<key>Length</key>
+			<string>49</string>
+			<key>App</key>
+			<string>com.ssy.Crane</string>
+			<key>Price</key>
+			<string>$0.99</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Lion</string>
+			<key>Effect</key>
+			<string>E</string>
+			<key>Category</key>
+			<string>Floor</string>
+			<key>Image</key>
+			<string>Lion</string>
+			<key>Video</key>
+			<string>Lion</string>
+			<key>Unlocked</key>
+			<false/>
+			<key>Length</key>
+			<string>24</string>
+			<key>App</key>
+			<string>com.ssy.Lion</string>
+			<key>Price</key>
+			<string>$0.99</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Kicking Mule</string>
+			<key>Effect</key>
+			<string>E</string>
+			<key>Category</key>
+			<string>Floor</string>
+			<key>Image</key>
+			<string>Kicking Mule</string>
+			<key>Video</key>
+			<string>Kicking Mule</string>
+			<key>Unlocked</key>
+			<false/>
+			<key>Length</key>
+			<string>32</string>
+			<key>App</key>
+			<string>com.ssy.KickingMule</string>
+			<key>Price</key>
+			<string>$0.99</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Boat</string>
+			<key>Effect</key>
+			<string>E</string>
+			<key>Category</key>
+			<string>Floor</string>
+			<key>Image</key>
+			<string>Boat</string>
+			<key>Video</key>
+			<string>Boat</string>
+			<key>Unlocked</key>
+			<false/>
+			<key>Length</key>
+			<string>39</string>
+			<key>App</key>
+			<string>com.ssy.Boat</string>
+			<key>Price</key>
+			<string>$0.99</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Crab</string>
+			<key>Effect</key>
+			<string>E</string>
+			<key>Category</key>
+			<string>Floor</string>
+			<key>Image</key>
+			<string>Crab</string>
+			<key>Video</key>
+			<string>Crab</string>
+			<key>Unlocked</key>
+			<false/>
+			<key>Length</key>
+			<string>38</string>
+			<key>App</key>
+			<string>com.ssy.Crab</string>
+			<key>Price</key>
+			<string>$0.99</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Rabbit</string>
+			<key>Effect</key>
+			<string>E</string>
+			<key>Category</key>
+			<string>Floor</string>
+			<key>Image</key>
+			<string>Rabbit</string>
+			<key>Video</key>
+			<string>Rabbit</string>
+			<key>Unlocked</key>
+			<false/>
+			<key>Length</key>
+			<string>41</string>
+			<key>App</key>
+			<string>com.ssy.Rabbit</string>
+			<key>Price</key>
+			<string>$0.99</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Dolphin</string>
+			<key>Effect</key>
+			<string>E</string>
+			<key>Category</key>
+			<string>Floor</string>
+			<key>Image</key>
+			<string>Dolphin</string>
+			<key>Video</key>
+			<string>Dolphin</string>
+			<key>Unlocked</key>
+			<false/>
+			<key>Length</key>
+			<string>56</string>
+			<key>App</key>
+			<string>com.ssy.Dolphin</string>
+			<key>Price</key>
+			<string>$0.99</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Scorpion</string>
+			<key>Effect</key>
+			<string>E</string>
+			<key>Category</key>
+			<string>Floor</string>
+			<key>Image</key>
+			<string>Scorpion</string>
+			<key>Video</key>
+			<string>Scorpion</string>
+			<key>Unlocked</key>
+			<false/>
+			<key>Length</key>
+			<string>58</string>
+			<key>App</key>
+			<string>com.ssy.Scorpion</string>
+			<key>Price</key>
+			<string>$0.99</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Slide</string>
+			<key>Effect</key>
+			<string>E</string>
+			<key>Category</key>
+			<string>Floor</string>
+			<key>Image</key>
+			<string>Slide</string>
+			<key>Video</key>
+			<string>Slide</string>
+			<key>Unlocked</key>
+			<false/>
+			<key>Length</key>
+			<string>40</string>
+			<key>App</key>
+			<string>com.ssy.Slide</string>
+			<key>Price</key>
+			<string>$0.99</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Fish</string>
+			<key>Effect</key>
+			<string>E</string>
+			<key>Category</key>
+			<string>Floor</string>
+			<key>Image</key>
+			<string>Fish</string>
+			<key>Video</key>
+			<string>Fish</string>
+			<key>Unlocked</key>
+			<true/>
+			<key>Length</key>
+			<string>44</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Pigeon</string>
+			<key>Effect</key>
+			<string>E</string>
+			<key>Category</key>
+			<string>Floor</string>
+			<key>Image</key>
+			<string>Pigeon</string>
+			<key>Video</key>
+			<string>Pigeon</string>
+			<key>Unlocked</key>
+			<false/>
+			<key>Length</key>
+			<string>90</string>
+			<key>App</key>
+			<string>com.ssy.Pigeon</string>
+			<key>Price</key>
+			<string>$0.99</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Crocodile</string>
+			<key>Effect</key>
+			<string>E</string>
+			<key>Category</key>
+			<string>Floor</string>
+			<key>Image</key>
+			<string>Crocodile</string>
+			<key>Video</key>
+			<string>Crocodile</string>
+			<key>Unlocked</key>
+			<false/>
+			<key>Length</key>
+			<string>32</string>
+			<key>App</key>
+			<string>com.ssy.Crocodile</string>
+			<key>Price</key>
+			<string>$0.99</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Swimming</string>
+			<key>Effect</key>
+			<string>E</string>
+			<key>Category</key>
+			<string>Floor</string>
+			<key>Image</key>
+			<string>Swimming</string>
+			<key>Video</key>
+			<string>Swimming</string>
+			<key>Unlocked</key>
+			<false/>
+			<key>Length</key>
+			<string>38</string>
+			<key>App</key>
+			<string>com.ssy.Swimming</string>
+			<key>Price</key>
+			<string>$0.99</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Bow</string>
+			<key>Effect</key>
+			<string>E</string>
+			<key>Category</key>
+			<string>Floor</string>
+			<key>Image</key>
+			<string>Bow</string>
+			<key>Video</key>
+			<string>Bow</string>
+			<key>Unlocked</key>
+			<false/>
+			<key>Length</key>
+			<string>40</string>
+			<key>App</key>
+			<string>com.ssy.Bow</string>
+			<key>Price</key>
+			<string>$0.99</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Snake</string>
+			<key>Effect</key>
+			<string>E</string>
+			<key>Category</key>
+			<string>Floor</string>
+			<key>Image</key>
+			<string>Snake</string>
+			<key>Video</key>
+			<string>Snake</string>
+			<key>Unlocked</key>
+			<false/>
+			<key>Length</key>
+			<string>52</string>
+			<key>App</key>
+			<string>com.ssy.Snake</string>
+			<key>Price</key>
+			<string>$0.99</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Swan</string>
+			<key>Effect</key>
+			<string>E</string>
+			<key>Category</key>
+			<string>Floor</string>
+			<key>Image</key>
+			<string>Swan</string>
+			<key>Video</key>
+			<string>Swan</string>
+			<key>Unlocked</key>
+			<false/>
+			<key>Length</key>
+			<string>36</string>
+			<key>App</key>
+			<string>com.ssy.Swan</string>
+			<key>Price</key>
+			<string>$0.99</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Camel</string>
+			<key>Effect</key>
+			<string>E</string>
+			<key>Category</key>
+			<string>Floor</string>
+			<key>Image</key>
+			<string>Camel</string>
+			<key>Video</key>
+			<string>Camel</string>
+			<key>Unlocked</key>
+			<false/>
+			<key>Length</key>
+			<string>60</string>
+			<key>App</key>
+			<string>com.ssy.Camel</string>
+			<key>Price</key>
+			<string>$0.99</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Rainbow</string>
+			<key>Effect</key>
+			<string>E</string>
+			<key>Category</key>
+			<string>Floor</string>
+			<key>Image</key>
+			<string>Rainbow</string>
+			<key>Video</key>
+			<string>Rainbow</string>
+			<key>Unlocked</key>
+			<false/>
+			<key>Length</key>
+			<string>37</string>
+			<key>App</key>
+			<string>com.ssy.Rainbow</string>
+			<key>Price</key>
+			<string>$0.99</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Dead Bug</string>
+			<key>Effect</key>
+			<string>C</string>
+			<key>Category</key>
+			<string>Floor</string>
+			<key>Image</key>
+			<string>Dead Bug</string>
+			<key>Video</key>
+			<string>Dead Bug</string>
+			<key>Unlocked</key>
+			<true/>
+			<key>Length</key>
+			<string>43</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Child&apos;s Pose</string>
+			<key>Effect</key>
+			<string>C</string>
+			<key>Category</key>
+			<string>Floor</string>
+			<key>Image</key>
+			<string>Child</string>
+			<key>Video</key>
+			<string>Child</string>
+			<key>Unlocked</key>
+			<false/>
+			<key>Length</key>
+			<string>40</string>
+			<key>App</key>
+			<string>com.ssy.ChildsPose</string>
+			<key>Price</key>
+			<string>$0.99</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Bridge</string>
+			<key>Effect</key>
+			<string>C</string>
+			<key>Category</key>
+			<string>Floor</string>
+			<key>Image</key>
+			<string>Bridge</string>
+			<key>Video</key>
+			<string>Bridge</string>
+			<key>Unlocked</key>
+			<true/>
+			<key>Length</key>
+			<string>44</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Bike</string>
+			<key>Effect</key>
+			<string>C</string>
+			<key>Category</key>
+			<string>Floor</string>
+			<key>Image</key>
+			<string>Bike</string>
+			<key>Video</key>
+			<string>Bike</string>
+			<key>Unlocked</key>
+			<false/>
+			<key>Length</key>
+			<string>45</string>
+			<key>App</key>
+			<string>com.ssy.Bike</string>
+			<key>Price</key>
+			<string>$0.99</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Plow</string>
+			<key>Effect</key>
+			<string>C</string>
+			<key>Category</key>
+			<string>Floor</string>
+			<key>Image</key>
+			<string>Plow</string>
+			<key>Video</key>
+			<string>Plow</string>
+			<key>Unlocked</key>
+			<false/>
+			<key>Length</key>
+			<string>49</string>
+			<key>App</key>
+			<string>com.ssy.Plow</string>
+			<key>Price</key>
+			<string>$0.99</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Savasana</string>
+			<key>Effect</key>
+			<string>C</string>
+			<key>Category</key>
+			<string>Floor</string>
+			<key>Image</key>
+			<string>Savasana</string>
+			<key>Video</key>
+			<string>Savasana</string>
+			<key>Unlocked</key>
+			<true/>
+			<key>Length</key>
+			<string>167</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Namaste</string>
+			<key>Effect</key>
+			<string>N</string>
+			<key>Category</key>
+			<string>Floor</string>
+			<key>Image</key>
+			<string>Namaste</string>
+			<key>Video</key>
+			<string>Namaste</string>
+			<key>Length</key>
+			<string>20</string>
+			<key>App</key>
+			<string>com.ssy.Namaste</string>
+			<key>Price</key>
+			<string>$0.99</string>
+			<key>Unlocked</key>
+			<true/>
+		</dict>
+	</array>
+	<key>Sequences</key>
+	<array>
+		<dict>
+			<key>Name</key>
+			<string>Brain Break</string>
+			<key>Poses</key>
+			<array>
+				<string>Triangle</string>
+				<string>Standing V</string>
+				<string>Eagle</string>
+				<string>Sailboat</string>
+			</array>
+			<key>Unlocked</key>
+			<false/>
+			<key>App</key>
+			<string>com.ssy.classroombreak</string>
+			<key>Price</key>
+			<string>$3.99</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Jazz Up My Brain</string>
+			<key>Poses</key>
+			<array>
+				<string>Mountain</string>
+				<string>Tree</string>
+				<string>Triangle</string>
+				<string>Warrior Two</string>
+				<string>Warrior One</string>
+				<string>Eagle</string>
+				<string>Butterfly</string>
+				<string>Sailboat</string>
+				<string>Cow</string>
+				<string>Crane</string>
+				<string>Fish</string>
+				<string>Lion</string>
+				<string>Swimming</string>
+				<string>Pigeon</string>
+				<string>Camel</string>
+				<string>Rainbow</string>
+				<string>Dead Bug</string>
+				<string>Child&apos;s Pose</string>
+				<string>Bridge</string>
+				<string>Bike</string>
+				<string>Plow</string>
+				<string>Savasana</string>
+			</array>
+			<key>Unlocked</key>
+			<false/>
+			<key>App</key>
+			<string>com.ssy.jazupmybrainsequence</string>
+			<key>Price</key>
+			<string>$7.99</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Test Prep</string>
+			<key>Poses</key>
+			<array>
+				<string>Rag Doll</string>
+				<string>Standing V</string>
+				<string>Tree</string>
+				<string>Eagle</string>
+				<string>Downward Dog</string>
+				<string>Bridge</string>
+			</array>
+			<key>Unlocked</key>
+			<false/>
+			<key>App</key>
+			<string>com.ssy.testprepsequence</string>
+			<key>Price</key>
+			<string>$3.99</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>GoodBye Stress</string>
+			<key>Poses</key>
+			<array>
+				<string>L Pose</string>
+				<string>Half Butterfly</string>
+				<string>Standing V</string>
+				<string>Downward Dog</string>
+				<string>Child&apos;s Pose</string>
+				<string>Savasana</string>
+			</array>
+			<key>Unlocked</key>
+			<false/>
+			<key>App</key>
+			<string>com.ssy.goodbystressshort</string>
+			<key>Price</key>
+			<string>$3.99</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Goodbye Stress</string>
+			<key>Poses</key>
+			<array>
+				<string>Tree</string>
+				<string>Rag Doll</string>
+				<string>Standing V</string>
+				<string>Downward Dog</string>
+				<string>Rag Doll</string>
+			</array>
+			<key>Unlocked</key>
+			<false/>
+			<key>App</key>
+			<string>com.ssy.goodbystressshortnofloor</string>
+			<key>Price</key>
+			<string>$3.99</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Goodbye Stress</string>
+			<key>Poses</key>
+			<array>
+				<string>Mountain</string>
+				<string>Rag Doll</string>
+				<string>Standing V</string>
+				<string>Downward Dog</string>
+				<string>Triangle</string>
+				<string>Warrior Two</string>
+				<string>Warrior One</string>
+				<string>Fish</string>
+				<string>Camel</string>
+				<string>V Pose</string>
+				<string>L Pose</string>
+				<string>Half Butterfly</string>
+				<string>Butterfly</string>
+				<string>Fish</string>
+				<string>Bike</string>
+				<string>Plow</string>
+				<string>Bridge</string>
+				<string>Savasana</string>
+			</array>
+			<key>Unlocked</key>
+			<false/>
+			<key>App</key>
+			<string>com.ssy.goodbystresslong</string>
+			<key>Price</key>
+			<string>$7.99</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Bedtime</string>
+			<key>Poses</key>
+			<array>
+				<string>Mountain</string>
+				<string>Triangle</string>
+				<string>Warrior Two</string>
+				<string>Rag Doll</string>
+				<string>Standing V</string>
+				<string>Downward Dog</string>
+				<string>Child&apos;s Pose</string>
+				<string>L Pose</string>
+				<string>Sailboat</string>
+				<string>Half Butterfly</string>
+				<string>Fish</string>
+				<string>Bike</string>
+				<string>Plow</string>
+				<string>Dead Bug</string>
+				<string>Bridge</string>
+				<string>Savasana</string>
+			</array>
+			<key>Unlocked</key>
+			<false/>
+			<key>App</key>
+			<string>com.ssy.bedtimelong</string>
+			<key>Price</key>
+			<string>$7.99</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Bedtime</string>
+			<key>Poses</key>
+			<array>
+				<string>Downward Dog</string>
+				<string>Rag Doll</string>
+				<string>Child&apos;s Pose</string>
+				<string>Cow</string>
+				<string>L Pose</string>
+				<string>Sailboat</string>
+				<string>Half Butterfly</string>
+				<string>V Pose</string>
+				<string>Butterfly</string>
+				<string>Dead Bug</string>
+				<string>Bridge</string>
+				<string>Savasana</string>
+			</array>
+			<key>Unlocked</key>
+			<false/>
+			<key>App</key>
+			<string>com.ssy.bedtimeshort</string>
+			<key>Price</key>
+			<string>$3.99</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Bedtime</string>
+			<key>Poses</key>
+			<array>
+				<string>Sailboat</string>
+				<string>Half Butterfly</string>
+				<string>Fish</string>
+				<string>Bridge</string>
+				<string>Dead Bug</string>
+				<string>Savasana</string>
+			</array>
+			<key>Unlocked</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Calming</string>
+			<key>Poses</key>
+			<array>
+				<string>Downward Dog</string>
+				<string>Rag Doll</string>
+				<string>Child&apos;s Pose</string>
+				<string>L Pose</string>
+				<string>Sailboat</string>
+				<string>Half Butterfly</string>
+				<string>Cow</string>
+				<string>V Pose</string>
+				<string>Butterfly</string>
+				<string>Bridge</string>
+				<string>Savasana</string>
+			</array>
+			<key>Unlocked</key>
+			<false/>
+			<key>App</key>
+			<string>com.ssy.calmingmedium</string>
+			<key>Price</key>
+			<string>$3.99</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Calming</string>
+			<key>Poses</key>
+			<array>
+				<string>Butterfly</string>
+				<string>Cow</string>
+				<string>Turtle</string>
+				<string>Child&apos;s Pose</string>
+				<string>Savasana</string>
+			</array>
+			<key>Unlocked</key>
+			<false/>
+			<key>App</key>
+			<string>com.ssy.calmingshort</string>
+			<key>Price</key>
+			<string>$3.99</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Calming</string>
+			<key>Poses</key>
+			<array>
+				<string>Mountain</string>
+				<string>Downward Dog</string>
+				<string>Rag Doll</string>
+				<string>Standing V</string>
+				<string>L Pose</string>
+				<string>V Pose</string>
+				<string>Butterfly</string>
+				<string>Cow</string>
+				<string>Turtle</string>
+				<string>Sailboat</string>
+				<string>Half Butterfly</string>
+				<string>Child&apos;s Pose</string>
+				<string>Dead Bug</string>
+				<string>Bridge</string>
+				<string>Bike</string>
+				<string>Plow</string>
+				<string>Savasana</string>
+			</array>
+			<key>Unlocked</key>
+			<false/>
+			<key>App</key>
+			<string>com.ssy.calminglong</string>
+			<key>Price</key>
+			<string>$7.99</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Brighten My Day</string>
+			<key>Poses</key>
+			<array>
+				<string>Mountain</string>
+				<string>Tree</string>
+				<string>Triangle</string>
+				<string>Warrior Two</string>
+				<string>Warrior One</string>
+				<string>Frog</string>
+				<string>Lion</string>
+				<string>Downward Dog</string>
+				<string>Cat</string>
+				<string>Snake</string>
+				<string>Swimming</string>
+				<string>Bow</string>
+				<string>Camel</string>
+				<string>Rainbow</string>
+				<string>Dead Bug</string>
+				<string>Bridge</string>
+				<string>Bike</string>
+				<string>Plow</string>
+				<string>Savasana</string>
+			</array>
+			<key>Unlocked</key>
+			<false/>
+			<key>App</key>
+			<string>com.ssy.brightenlong</string>
+			<key>Price</key>
+			<string>$7.99</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Brighten My Day</string>
+			<key>Poses</key>
+			<array>
+				<string>Tree</string>
+				<string>Triangle</string>
+				<string>Frog</string>
+				<string>Lion</string>
+				<string>Downward Dog</string>
+				<string>Bridge</string>
+				<string>Bike</string>
+				<string>Plow</string>
+				<string>Savasana</string>
+			</array>
+			<key>Unlocked</key>
+			<false/>
+			<key>App</key>
+			<string>com.ssy.brightenshort</string>
+			<key>Price</key>
+			<string>$3.99</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Open My Heart</string>
+			<key>Poses</key>
+			<array>
+				<string>Mountain</string>
+				<string>Tree</string>
+				<string>Triangle</string>
+				<string>Warrior Two</string>
+				<string>Frog</string>
+				<string>Kicking Mule</string>
+				<string>Slide</string>
+				<string>Fish</string>
+				<string>Pigeon</string>
+				<string>Lion</string>
+				<string>Swimming</string>
+				<string>Bow</string>
+				<string>Snake</string>
+				<string>Camel</string>
+				<string>Rainbow</string>
+				<string>Dead Bug</string>
+				<string>Bridge</string>
+				<string>Bike</string>
+				<string>Plow</string>
+				<string>Savasana</string>
+			</array>
+			<key>Unlocked</key>
+			<false/>
+			<key>App</key>
+			<string>com.ssy.openlong</string>
+			<key>Price</key>
+			<string>$7.99</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Open My Heart</string>
+			<key>Poses</key>
+			<array>
+				<string>L Pose</string>
+				<string>Fish</string>
+				<string>Snake</string>
+				<string>Camel</string>
+				<string>Rainbow</string>
+				<string>Dead Bug</string>
+				<string>Bridge</string>
+				<string>Plow</string>
+				<string>Savasana</string>
+			</array>
+			<key>Unlocked</key>
+			<false/>
+			<key>App</key>
+			<string>com.ssy.openshort</string>
+			<key>Price</key>
+			<string>$3.99</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>I Am Powerful</string>
+			<key>Poses</key>
+			<array>
+				<string>Mountain</string>
+				<string>Triangle</string>
+				<string>Warrior Two</string>
+				<string>Chair</string>
+				<string>Tree</string>
+				<string>Eagle</string>
+				<string>Standing V</string>
+				<string>Warrior One</string>
+				<string>Downward Dog</string>
+				<string>Dolphin</string>
+				<string>Scorpion</string>
+				<string>Kicking Mule</string>
+				<string>Crane</string>
+				<string>Crab</string>
+				<string>Dead Bug</string>
+				<string>Bridge</string>
+				<string>Bike</string>
+				<string>Plow</string>
+				<string>Savasana</string>
+			</array>
+			<key>Unlocked</key>
+			<false/>
+			<key>App</key>
+			<string>com.ssy.powerfullong</string>
+			<key>Price</key>
+			<string>$7.99</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>I Am Powerful</string>
+			<key>Poses</key>
+			<array>
+				<string>Tree</string>
+				<string>Warrior Two</string>
+				<string>Warrior One</string>
+				<string>Standing V</string>
+				<string>Downward Dog</string>
+				<string>Dolphin</string>
+				<string>Kicking Mule</string>
+				<string>Dead Bug</string>
+				<string>Bridge</string>
+				<string>Savasana</string>
+			</array>
+			<key>Unlocked</key>
+			<false/>
+			<key>App</key>
+			<string>com.ssy.powerfulshort</string>
+			<key>Price</key>
+			<string>$3.99</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Runner&apos;s</string>
+			<key>Poses</key>
+			<array>
+				<string>Rag Doll</string>
+				<string>Downward Dog</string>
+				<string>Cat</string>
+				<string>L Pose</string>
+				<string>V Pose</string>
+				<string>Butterfly</string>
+				<string>Half Butterfly</string>
+				<string>Sailboat</string>
+				<string>Cow</string>
+				<string>Triangle</string>
+				<string>Eagle</string>
+				<string>Mosquito</string>
+				<string>Warrior One</string>
+				<string>Pigeon</string>
+				<string>Fish</string>
+				<string>Dead Bug</string>
+				<string>Bridge</string>
+				<string>Bike</string>
+				<string>Plow</string>
+				<string>Savasana</string>
+			</array>
+			<key>Unlocked</key>
+			<false/>
+			<key>App</key>
+			<string>com.ssy.runnerslong</string>
+			<key>Price</key>
+			<string>$7.99</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Runner&apos;s</string>
+			<key>Poses</key>
+			<array>
+				<string>L Pose</string>
+				<string>V Pose</string>
+				<string>Butterfly</string>
+				<string>Half Butterfly</string>
+				<string>Sailboat</string>
+				<string>Bridge</string>
+				<string>Savasana</string>
+			</array>
+			<key>Unlocked</key>
+			<false/>
+			<key>App</key>
+			<string>com.ssy.runnersshort</string>
+			<key>Price</key>
+			<string>$3.99</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Athlete&apos;s</string>
+			<key>Poses</key>
+			<array>
+				<string>Mountain</string>
+				<string>Tree</string>
+				<string>Triangle</string>
+				<string>Warrior Two</string>
+				<string>Eagle</string>
+				<string>Chair</string>
+				<string>Downward Dog</string>
+				<string>Dolphin</string>
+				<string>Kicking Mule</string>
+				<string>L Pose</string>
+				<string>V Pose</string>
+				<string>Butterfly</string>
+				<string>Half Butterfly</string>
+				<string>Sailboat</string>
+				<string>Cow</string>
+				<string>Turtle</string>
+				<string>Bike</string>
+				<string>Plow</string>
+				<string>Bridge</string>
+				<string>Savasana</string>
+			</array>
+			<key>Unlocked</key>
+			<false/>
+			<key>App</key>
+			<string>com.ssy.athleteslong</string>
+			<key>Price</key>
+			<string>$7.99</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Athlete&apos;s</string>
+			<key>Poses</key>
+			<array>
+				<string>Triangle</string>
+				<string>Warrior Two</string>
+				<string>Warrior One</string>
+				<string>Eagle</string>
+				<string>Downward Dog</string>
+				<string>Rag Doll</string>
+				<string>L Pose</string>
+				<string>Butterfly</string>
+				<string>Sailboat</string>
+				<string>Cow</string>
+				<string>Bike</string>
+				<string>Bridge</string>
+				<string>Savasana</string>
+			</array>
+			<key>Unlocked</key>
+			<false/>
+			<key>App</key>
+			<string>com.ssy.athletesmedium</string>
+			<key>Price</key>
+			<string>$3.99</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Athlete&apos;s</string>
+			<key>Poses</key>
+			<array>
+				<string>Rag Doll</string>
+				<string>Standing V</string>
+				<string>Downward Dog</string>
+				<string>Half Butterfly</string>
+				<string>Sailboat</string>
+				<string>Cow</string>
+				<string>Eagle</string>
+				<string>Mosquito</string>
+				<string>Warrior One</string>
+				<string>Rag Doll</string>
+				<string>Savasana</string>
+			</array>
+			<key>Unlocked</key>
+			<false/>
+			<key>App</key>
+			<string>com.ssy.athletesshort</string>
+			<key>Price</key>
+			<string>$3.99</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>I Can Focus</string>
+			<key>Poses</key>
+			<array>
+				<string>Mountain</string>
+				<string>Tree</string>
+				<string>Triangle</string>
+				<string>Chair</string>
+				<string>Eagle</string>
+				<string>Standing V</string>
+				<string>Mosquito</string>
+				<string>Warrior One</string>
+				<string>Kicking Mule</string>
+				<string>Downward Dog</string>
+				<string>Crane</string>
+				<string>Flower</string>
+				<string>Big Butterfly</string>
+				<string>Boat</string>
+				<string>Fish</string>
+				<string>Snake</string>
+				<string>Swan</string>
+				<string>Camel</string>
+				<string>Rainbow</string>
+				<string>Dead Bug</string>
+				<string>Bridge</string>
+				<string>Bike</string>
+				<string>Plow</string>
+				<string>Savasana</string>
+			</array>
+			<key>Unlocked</key>
+			<false/>
+			<key>App</key>
+			<string>com.ssy.focuslong</string>
+			<key>Price</key>
+			<string>$7.99</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>I Can Focus</string>
+			<key>Poses</key>
+			<array>
+				<string>Tree</string>
+				<string>Eagle</string>
+				<string>Mosquito</string>
+				<string>Kicking Mule</string>
+				<string>Crane</string>
+				<string>Flower</string>
+				<string>Big Butterfly</string>
+				<string>Dead Bug</string>
+				<string>Bridge</string>
+				<string>Savasana</string>
+			</array>
+			<key>Unlocked</key>
+			<false/>
+			<key>App</key>
+			<string>com.ssy.focusshort</string>
+			<key>Price</key>
+			<string>$3.99</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Wake Up</string>
+			<key>Poses</key>
+			<array>
+				<string>L Pose</string>
+				<string>V Pose</string>
+				<string>Butterfly</string>
+				<string>Sailboat</string>
+				<string>Big Butterfly</string>
+				<string>Dead Bug</string>
+				<string>Fish</string>
+				<string>Crab</string>
+				<string>Pigeon</string>
+				<string>Downward Dog</string>
+				<string>Rag Doll</string>
+				<string>Mountain</string>
+				<string>Tree</string>
+				<string>Eagle</string>
+				<string>Kicking Mule</string>
+				<string>Lion</string>
+				<string>Crane</string>
+				<string>Standing V</string>
+				<string>Rag Doll</string>
+				<string>Child&apos;s Pose</string>
+				<string>Savasana</string>
+			</array>
+			<key>Unlocked</key>
+			<false/>
+			<key>App</key>
+			<string>com.ssy.wakeuplong</string>
+			<key>Price</key>
+			<string>$7.99</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Wake Up</string>
+			<key>Poses</key>
+			<array>
+				<string>Downward Dog</string>
+				<string>Rag Doll</string>
+				<string>Lion</string>
+				<string>Rabbit</string>
+				<string>Crane</string>
+				<string>Frog</string>
+				<string>Kicking Mule</string>
+				<string>Snake</string>
+				<string>Swimming</string>
+				<string>Camel</string>
+				<string>Dead Bug</string>
+				<string>Bridge</string>
+				<string>Child&apos;s Pose</string>
+				<string>Savasana</string>
+			</array>
+			<key>Unlocked</key>
+			<false/>
+			<key>App</key>
+			<string>com.ssy.wakeupmedium</string>
+			<key>Price</key>
+			<string>$3.99</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Wake Up</string>
+			<key>Poses</key>
+			<array>
+				<string>Child&apos;s Pose</string>
+				<string>Rabbit</string>
+				<string>Rag Doll</string>
+				<string>Tree</string>
+				<string>Frog</string>
+				<string>Snake</string>
+				<string>Swimming</string>
+				<string>Dead Bug</string>
+				<string>Bridge</string>
+			</array>
+			<key>Unlocked</key>
+			<false/>
+			<key>App</key>
+			<string>com.ssy.wakeupshort</string>
+			<key>Price</key>
+			<string>$3.99</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Backbend</string>
+			<key>Poses</key>
+			<array>
+				<string>Mountain</string>
+				<string>Triangle</string>
+				<string>Warrior Two</string>
+				<string>Warrior One</string>
+				<string>Mosquito</string>
+				<string>Chair</string>
+				<string>Kicking Mule</string>
+				<string>Downward Dog</string>
+				<string>Cat</string>
+				<string>Fish</string>
+				<string>Pigeon</string>
+				<string>Crocodile</string>
+				<string>Swimming</string>
+				<string>Bow</string>
+				<string>Swan</string>
+				<string>Camel</string>
+				<string>Rainbow</string>
+				<string>Dead Bug</string>
+				<string>Child&apos;s Pose</string>
+				<string>Bridge</string>
+				<string>Bike</string>
+				<string>Plow</string>
+				<string>Savasana</string>
+			</array>
+			<key>Unlocked</key>
+			<false/>
+			<key>App</key>
+			<string>com.ssy.backbend</string>
+			<key>Price</key>
+			<string>$7.99</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Open My Hips</string>
+			<key>Poses</key>
+			<array>
+				<string>Tree</string>
+				<string>Triangle</string>
+				<string>Warrior Two</string>
+				<string>Eagle</string>
+				<string>Frog</string>
+				<string>Pretzel</string>
+				<string>V Pose</string>
+				<string>Butterfly</string>
+				<string>Big Butterfly</string>
+				<string>Turtle</string>
+				<string>Cow</string>
+				<string>Flower</string>
+				<string>Sailboat</string>
+				<string>Fish</string>
+				<string>Pigeon</string>
+				<string>Dead Bug</string>
+				<string>Bridge</string>
+				<string>Savasana</string>
+			</array>
+			<key>Unlocked</key>
+			<false/>
+			<key>App</key>
+			<string>com.openhips</string>
+			<key>Price</key>
+			<string>$7.99</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Symmetry</string>
+			<key>Poses</key>
+			<array>
+				<string>L Pose</string>
+				<string>V Pose</string>
+				<string>Butterfly</string>
+				<string>Downward Dog</string>
+				<string>Child&apos;s Pose</string>
+				<string>Rag Doll</string>
+				<string>Chair</string>
+				<string>Standing V</string>
+				<string>Frog</string>
+				<string>Crane</string>
+				<string>Lion</string>
+				<string>Rabbit</string>
+				<string>Snake</string>
+				<string>Camel</string>
+				<string>Dead Bug</string>
+				<string>Bike</string>
+				<string>Plow</string>
+				<string>Bridge</string>
+				<string>Savasana</string>
+			</array>
+			<key>Unlocked</key>
+			<false/>
+			<key>App</key>
+			<string>com.ssy.symmetry</string>
+			<key>Price</key>
+			<string>$7.99</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>My First Sequence</string>
+			<key>Poses</key>
+			<array>
+				<string>Mountain</string>
+				<string>Tree</string>
+				<string>Triangle</string>
+				<string>Warrior Two</string>
+				<string>Rag Doll</string>
+				<string>Standing V</string>
+				<string>Frog</string>
+				<string>Pretzel</string>
+				<string>V Pose</string>
+				<string>Butterfly</string>
+				<string>Downward Dog</string>
+				<string>Cat</string>
+				<string>Boat</string>
+				<string>Crab</string>
+				<string>Snake</string>
+				<string>Swimming</string>
+				<string>Dead Bug</string>
+				<string>Bridge</string>
+				<string>Savasana</string>
+			</array>
+			<key>Unlocked</key>
+			<false/>
+			<key>App</key>
+			<string>com.ssy.firstlong</string>
+			<key>Price</key>
+			<string>$7.99</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>My First Sequence</string>
+			<key>Poses</key>
+			<array>
+				<string>Mountain</string>
+				<string>Tree</string>
+				<string>Triangle</string>
+				<string>Warrior Two</string>
+				<string>Frog</string>
+				<string>Downward Dog</string>
+				<string>Cat</string>
+				<string>Dead Bug</string>
+				<string>Child&apos;s Pose</string>
+				<string>Savasana</string>
+			</array>
+			<key>Unlocked</key>
+			<false/>
+			<key>App</key>
+			<string>com.ssy.firstshort</string>
+			<key>Price</key>
+			<string>$3.99</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Push Myself</string>
+			<key>Poses</key>
+			<array>
+				<string>Downward Dog</string>
+				<string>Cat</string>
+				<string>Crane</string>
+				<string>Kicking Mule</string>
+				<string>Crab</string>
+				<string>Boat</string>
+				<string>Rabbit</string>
+				<string>Dolphin</string>
+				<string>Scorpion</string>
+				<string>Slide</string>
+				<string>Pigeon</string>
+				<string>Crocodile</string>
+				<string>Swimming</string>
+				<string>Bow</string>
+				<string>Swan</string>
+				<string>Camel</string>
+				<string>Rainbow</string>
+				<string>Dead Bug</string>
+				<string>Bridge</string>
+				<string>Bike</string>
+				<string>Plow</string>
+				<string>Savasana</string>
+			</array>
+			<key>Unlocked</key>
+			<false/>
+			<key>App</key>
+			<string>com.ssy.pushmyself</string>
+			<key>Price</key>
+			<string>$7.99</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Standing Poses</string>
+			<key>Poses</key>
+			<array>
+				<string>Mountain</string>
+				<string>Triangle</string>
+				<string>Warrior Two</string>
+				<string>Rag Doll</string>
+				<string>Chair</string>
+				<string>Tree</string>
+				<string>Eagle</string>
+				<string>Standing V</string>
+				<string>Mosquito</string>
+				<string>Warrior One</string>
+				<string>Frog</string>
+				<string>Savasana</string>
+			</array>
+			<key>Unlocked</key>
+			<false/>
+			<key>App</key>
+			<string>com.ssy.standing</string>
+			<key>Price</key>
+			<string>$3.99</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Sitting Poses</string>
+			<key>Poses</key>
+			<array>
+				<string>Pretzel</string>
+				<string>L Pose</string>
+				<string>V Pose</string>
+				<string>Butterfly</string>
+				<string>Big Butterfly</string>
+				<string>Turtle</string>
+				<string>Cow</string>
+				<string>Flower</string>
+				<string>Half Butterfly</string>
+				<string>Sailboat</string>
+				<string>Savasana</string>
+			</array>
+			<key>Unlocked</key>
+			<false/>
+			<key>App</key>
+			<string>com.ssy.sitting</string>
+			<key>Price</key>
+			<string>$3.99</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Floor Poses</string>
+			<key>Poses</key>
+			<array>
+				<string>Downward Dog</string>
+				<string>Cat</string>
+				<string>Crane</string>
+				<string>Lion</string>
+				<string>Kicking Mule</string>
+				<string>Boat</string>
+				<string>Crab</string>
+				<string>Rabbit</string>
+				<string>Dolphin</string>
+				<string>Scorpion</string>
+				<string>Slide</string>
+				<string>Fish</string>
+				<string>Pigeon</string>
+				<string>Crocodile</string>
+				<string>Swimming</string>
+				<string>Bow</string>
+				<string>Snake</string>
+				<string>Swan</string>
+				<string>Camel</string>
+				<string>Rainbow</string>
+				<string>Dead Bug</string>
+				<string>Child&apos;s Pose</string>
+				<string>Bridge</string>
+				<string>Bike</string>
+				<string>Plow</string>
+				<string>Savasana</string>
+			</array>
+			<key>Unlocked</key>
+			<false/>
+			<key>App</key>
+			<string>com.ssy.floor</string>
+			<key>Price</key>
+			<string>$7.99</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Recharge Myself</string>
+			<key>Poses</key>
+			<array>
+				<string>Mountain</string>
+				<string>Tree</string>
+				<string>Triangle</string>
+				<string>Warrior Two</string>
+				<string>Eagle</string>
+				<string>Mosquito</string>
+				<string>Warrior One</string>
+				<string>Frog</string>
+				<string>Downward Dog</string>
+				<string>Crane</string>
+				<string>Lion</string>
+				<string>Kicking Mule</string>
+				<string>Dolphin</string>
+				<string>Fish</string>
+				<string>Pigeon</string>
+				<string>Swimming</string>
+				<string>Bow</string>
+				<string>Swan</string>
+				<string>Camel</string>
+				<string>Rainbow</string>
+				<string>Dead Bug</string>
+				<string>Child&apos;s Pose</string>
+				<string>Bike</string>
+				<string>Plow</string>
+				<string>Savasana</string>
+			</array>
+			<key>Unlocked</key>
+			<false/>
+			<key>App</key>
+			<string>com.ssy.recharge</string>
+			<key>Price</key>
+			<string>$7.99</string>
+		</dict>
+		<dict>
+			<key>App</key>
+			<string>com.ssy.fullssydvd</string>
+			<key>Name</key>
+			<string>Full SSY DVD</string>
+			<key>Poses</key>
+			<array>
+				<string>Mountain</string>
+				<string>Triangle</string>
+				<string>Warrior Two</string>
+				<string>Rag Doll</string>
+				<string>Chair</string>
+				<string>Tree</string>
+				<string>Eagle</string>
+				<string>Standing V</string>
+				<string>Mosquito</string>
+				<string>Warrior One</string>
+				<string>Frog</string>
+				<string>Pretzel</string>
+				<string>L Pose</string>
+				<string>V Pose</string>
+				<string>Butterfly</string>
+				<string>Big Butterfly</string>
+				<string>Turtle</string>
+				<string>Cow</string>
+				<string>Flower</string>
+				<string>Half Butterfly</string>
+				<string>Sailboat</string>
+				<string>Downward Dog</string>
+				<string>Cat</string>
+				<string>Crane</string>
+				<string>Lion</string>
+				<string>Kicking Mule</string>
+				<string>Boat</string>
+				<string>Crab</string>
+				<string>Rabbit</string>
+				<string>Dolphin</string>
+				<string>Scorpion</string>
+				<string>Slide</string>
+				<string>Fish</string>
+				<string>Pigeon</string>
+				<string>Crocodile</string>
+				<string>Swimming</string>
+				<string>Bow</string>
+				<string>Snake</string>
+				<string>Swan</string>
+				<string>Camel</string>
+				<string>Rainbow</string>
+				<string>Dead Bug</string>
+				<string>Child&apos;s Pose</string>
+				<string>Bridge</string>
+				<string>Bike</string>
+				<string>Plow</string>
+				<string>Savasana</string>
+				<string>Namaste</string>
+			</array>
+			<key>Unlocked</key>
+			<false/>
+			<key>Full</key>
+			<true/>
+			<key>Price</key>
+			<string>13.99</string>
+		</dict>
+	</array>
+	<key>SavedSequences</key>
+	<array/>
+	<key>CustomPackages</key>
+	<array>
+		<dict>
+			<key>Name</key>
+			<string>Ultimate Package</string>
+			<key>Price</key>
+			<string>$24.99</string>
+			<key>Slots</key>
+			<string>1000000</string>
+			<key>Everything</key>
+			<true/>
+			<key>App</key>
+			<string>com.ssy.ultimatepackage</string>
+			<key>Desc</key>
+			<string>Opens Everything - 39 Sequences and 48 Poses.</string>
+			<key>Image</key>
+			<string>Rabbit</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Experienced Package</string>
+			<key>App</key>
+			<string>com.ssy.experiencedpackage</string>
+			<key>Price</key>
+			<string>$14.99</string>
+			<key>Slots</key>
+			<string>6</string>
+			<key>Desc</key>
+			<string>16 Sequences, Opens All Poses.</string>
+			<key>Image</key>
+			<string>Rainbow</string>
+			<key>Sequences</key>
+			<array>
+				<string>Open My Hips</string>
+				<string>Symmetry</string>
+				<string>Recharge Myself</string>
+				<string>Backbend</string>
+				<string>Push Myself</string>
+				<string>I Can Focus</string>
+				<string>Bedtime</string>
+				<string>Open My Heart</string>
+				<string>Jazz Up My Brain</string>
+				<string>Wake Up</string>
+				<string>Athlete&apos;s</string>
+				<string>Brighten My Day</string>
+				<string>Sitting Poses</string>
+				<string>Standing Poses</string>
+				<string>Floor Poses</string>
+				<string>Full SSY DVD</string>
+			</array>
+			<key>Unlocks</key>
+			<array>
+				<string>29</string>
+				<string>30</string>
+				<string>37</string>
+				<string>28</string>
+				<string>33</string>
+				<string>23</string>
+				<string>6</string>
+				<string>14</string>
+				<string>1</string>
+				<string>25</string>
+				<string>21</string>
+				<string>13</string>
+				<string>35</string>
+				<string>34</string>
+				<string>36</string>
+				<string>38</string>
+			</array>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Athleteʼs Package</string>
+			<key>Price</key>
+			<string>$14.99</string>
+			<key>App</key>
+			<string>com.ssy.athletespackage</string>
+			<key>Slots</key>
+			<string>6</string>
+			<key>Desc</key>
+			<string>16 Sequences, Opens All Poses.</string>
+			<key>Sequences</key>
+			<array>
+				<string>Athlete&apos;s</string>
+				<string>Athlete&apos;s</string>
+				<string>I Am Powerful</string>
+				<string>Open My Heart</string>
+				<string>Runner&apos;s</string>
+				<string>Runner&apos;s</string>
+				<string>Calming</string>
+				<string>Brighten My Day</string>
+				<string>Wake Up</string>
+				<string>Open My Hips</string>
+				<string>Goodbye Stress</string>
+				<string>Bedtime</string>
+				<string>Sitting Poses</string>
+				<string>Standing Poses</string>
+				<string>Floor Poses</string>
+				<string>Full SSY DVD</string>
+			</array>
+			<key>Image</key>
+			<string>Half Butterfly</string>
+			<key>Unlocks</key>
+			<array>
+				<string>20</string>
+				<string>22</string>
+				<string>16</string>
+				<string>14</string>
+				<string>18</string>
+				<string>19</string>
+				<string>11</string>
+				<string>12</string>
+				<string>25</string>
+				<string>29</string>
+				<string>5</string>
+				<string>7</string>
+				<string>35</string>
+				<string>34</string>
+				<string>36</string>
+				<string>38</string>
+			</array>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Classroom Package</string>
+			<key>App</key>
+			<string>com.ssy.classroompackage</string>
+			<key>Price</key>
+			<string>$14.99</string>
+			<key>Slots</key>
+			<string>6</string>
+			<key>Desc</key>
+			<string>17 Sequences, Opens All Poses.</string>
+			<key>Sequences</key>
+			<array>
+				<string>Jazz Up My Brain</string>
+				<string>Brain Break</string>
+				<string>I Can Focus</string>
+				<string>My First Sequence</string>
+				<string>Goodbye Stress</string>
+				<string>GoodBye Stress</string>
+				<string>Goodbye Stress</string>
+				<string>Test Prep</string>
+				<string>Calming</string>
+				<string>Calming</string>
+				<string>I Am Powerful</string>
+				<string>Open My Heart</string>
+				<string>Wake Up</string>
+				<string>Sitting Poses</string>
+				<string>Standing Poses</string>
+				<string>Floor Poses</string>
+				<string>Full SSY DVD</string>
+			</array>
+			<key>Image</key>
+			<string>Downward Dog</string>
+			<key>Unlocks</key>
+			<array>
+				<string>1</string>
+				<string>0</string>
+				<string>24</string>
+				<string>31</string>
+				<string>5</string>
+				<string>3</string>
+				<string>4</string>
+				<string>2</string>
+				<string>11</string>
+				<string>10</string>
+				<string>17</string>
+				<string>15</string>
+				<string>27</string>
+				<string>34</string>
+				<string>36</string>
+				<string>38</string>
+			</array>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>New to Yoga Package</string>
+			<key>Price</key>
+			<string>$14.99</string>
+			<key>App</key>
+			<string>com.ssy.newtoyoga</string>
+			<key>Slots</key>
+			<string>6</string>
+			<key>Desc</key>
+			<string>16 Sequences, Opens All Poses.</string>
+			<key>Sequences</key>
+			<array>
+				<string>My First Sequence</string>
+				<string>My First Sequence</string>
+				<string>Wake Up</string>
+				<string>Wake Up</string>
+				<string>Brighten My Day</string>
+				<string>Bedtime</string>
+				<string>I Can Focus</string>
+				<string>Goodbye Stress</string>
+				<string>Jazz Up My Brain</string>
+				<string>Calming</string>
+				<string>Calming</string>
+				<string>I Am Powerful</string>
+				<string>Sitting Poses</string>
+				<string>Standing Poses</string>
+				<string>Floor Poses</string>
+				<string>Full SSY DVD</string>
+			</array>
+			<key>Unlocks</key>
+			<array>
+				<string>31</string>
+				<string>32</string>
+				<string>25</string>
+				<string>24</string>
+				<string>12</string>
+				<string>7</string>
+				<string>23</string>
+				<string>5</string>
+				<string>1</string>
+				<string>11</string>
+				<string>9</string>
+				<string>17</string>
+				<string>27</string>
+				<string>34</string>
+				<string>36</string>
+				<string>38</string>
+			</array>
+			<key>Image</key>
+			<string>Butterfly</string>
+		</dict>
+	</array>
+</dict>
+</plist>

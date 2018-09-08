@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>iPad</key>
+	<array>
+		<dict>
+			<key>Image</key>
+			<string>1 eagle drag</string>
+			<key>Description</key>
+			<string>From the Pose Tabs press, hold, and drag Poses to the Sequence Canvas. Notice the color coding of the Poses: Blue = calming, Red = energizing, Yellow = neutral.</string>
+		</dict>
+		<dict>
+			<key>Image</key>
+			<string>2 mosquito move</string>
+			<key>Description</key>
+			<string>Move Poses around within the Sequence Canvas or drop a pose back into the tabs area. Notice the time and poses accumulate.</string>
+		</dict>
+		<dict>
+			<key>Image</key>
+			<string>3 mountain transition</string>
+			<key>Description</key>
+			<string>• DefaultspeedforTransitionSlidesis4seconds..</string>
+		</dict>
+		<dict>
+			<key>Image</key>
+			<string>4 slider play save</string>
+			<key>Description</key>
+			<string>...or customize your Transition speed using the Speed Button and Slider. First Transition Slide remains 4 seconds.</string>
+		</dict>
+		<dict>
+			<key>Image</key>
+			<string>1 eagle drag</string>
+			<key>Description</key>
+			<string>From the Pose Tabs press, hold, and drag Poses to the Sequence Canvas. Notice the color coding of the Poses: Blue = calming, Red = energizing, Yellow = neutral.</string>
+		</dict>
+		<dict>
+			<key>Image</key>
+			<string>1 eagle drag</string>
+			<key>Description</key>
+			<string>From the Pose Tabs press, hold, and drag Poses to the Sequence Canvas. Notice the color coding of the Poses: Blue = calming, Red = energizing, Yellow = neutral.</string>
+		</dict>
+		<dict>
+			<key>Image</key>
+			<string>1 eagle drag</string>
+			<key>Description</key>
+			<string>From the Pose Tabs press, hold, and drag Poses to the Sequence Canvas. Notice the color coding of the Poses: Blue = calming, Red = energizing, Yellow = neutral.</string>
+		</dict>
+		<dict>
+			<key>Image</key>
+			<string>1 eagle drag</string>
+			<key>Description</key>
+			<string>From the Pose Tabs press, hold, and drag Poses to the Sequence Canvas. Notice the color coding of the Poses: Blue = calming, Red = energizing, Yellow = neutral.</string>
+		</dict>
+		<dict>
+			<key>Image</key>
+			<string>1 eagle drag</string>
+			<key>Description</key>
+			<string>From the Pose Tabs press, hold, and drag Poses to the Sequence Canvas. Notice the color coding of the Poses: Blue = calming, Red = energizing, Yellow = neutral.</string>
+		</dict>
+		<dict>
+			<key>Image</key>
+			<string>1 eagle drag</string>
+			<key>Description</key>
+			<string>From the Pose Tabs press, hold, and drag Poses to the Sequence Canvas. Notice the color coding of the Poses: Blue = calming, Red = energizing, Yellow = neutral.</string>
+		</dict>
+		<dict>
+			<key>Image</key>
+			<string>1 eagle drag</string>
+			<key>Description</key>
+			<string>From the Pose Tabs press, hold, and drag Poses to the Sequence Canvas. Notice the color coding of the Poses: Blue = calming, Red = energizing, Yellow = neutral.</string>
+		</dict>
+		<dict>
+			<key>Image</key>
+			<string>1 eagle drag</string>
+			<key>Description</key>
+			<string>From the Pose Tabs press, hold, and drag Poses to the Sequence Canvas. Notice the color coding of the Poses: Blue = calming, Red = energizing, Yellow = neutral.</string>
+		</dict>
+		<dict>
+			<key>Image</key>
+			<string>1 eagle drag</string>
+			<key>Description</key>
+			<string>From the Pose Tabs press, hold, and drag Poses to the Sequence Canvas. Notice the color coding of the Poses: Blue = calming, Red = energizing, Yellow = neutral.</string>
+		</dict>
+		<dict>
+			<key>Image</key>
+			<string>1 eagle drag</string>
+			<key>Description</key>
+			<string>From the Pose Tabs press, hold, and drag Poses to the Sequence Canvas. Notice the color coding of the Poses: Blue = calming, Red = energizing, Yellow = neutral.</string>
+		</dict>
+		<dict>
+			<key>Image</key>
+			<string>1 eagle drag</string>
+			<key>Description</key>
+			<string>From the Pose Tabs press, hold, and drag Poses to the Sequence Canvas. Notice the color coding of the Poses: Blue = calming, Red = energizing, Yellow = neutral.</string>
+		</dict>
+		<dict>
+			<key>Image</key>
+			<string>1 eagle drag</string>
+			<key>Description</key>
+			<string>From the Pose Tabs press, hold, and drag Poses to the Sequence Canvas. Notice the color coding of the Poses: Blue = calming, Red = energizing, Yellow = neutral.</string>
+		</dict>
+	</array>
+</dict>
+</plist>
