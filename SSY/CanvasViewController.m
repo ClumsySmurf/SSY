@@ -163,14 +163,14 @@
     // Fix our buttons
     if (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPhone)
     {
-        if (!IS_IPHONE_5)
-        {
-            
-            self.m_standingBttn.transform = CGAffineTransformMakeTranslation(-88, 0);
-            self.m_ssyBttn.transform = CGAffineTransformMakeTranslation(-88, 0);
-            self.m_sittingBttn.transform = CGAffineTransformMakeTranslation(-88, 0);
-            self.m_floorBttn.transform = CGAffineTransformMakeTranslation(-88, 0);
-        }
+//        if (!IS_IPHONE_5)
+//        {
+//            
+//            self.m_standingBttn.transform = CGAffineTransformMakeTranslation(-88, 0);
+//            self.m_ssyBttn.transform = CGAffineTransformMakeTranslation(-88, 0);
+//            self.m_sittingBttn.transform = CGAffineTransformMakeTranslation(-88, 0);
+//            self.m_floorBttn.transform = CGAffineTransformMakeTranslation(-88, 0);
+//        }
     }
 
     currentPoses = [NSMutableArray array];
