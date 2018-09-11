@@ -569,7 +569,7 @@ message:msg delegate:nil cancelButtonTitle:@"OK"
     self.m_floorBttn.enabled = YES;
     // bring base to front then button
     [self.view bringSubviewToFront:self.m_tabBaseImageView];
-    [self.m_tabBaseImageView setImage:[UIImage imageNamed:@"tabBase1"]];
+   // [self.m_tabBaseImageView setImage:[UIImage imageNamed:@"tabBase1"]];
     [self.view bringSubviewToFront:self.m_ssyBttn];
     
     
@@ -585,7 +585,7 @@ message:msg delegate:nil cancelButtonTitle:@"OK"
     self.m_floorBttn.enabled = YES;
     // bring base to front then button
     [self.view bringSubviewToFront:self.m_tabBaseImageView];
-    [self.m_tabBaseImageView setImage:[UIImage imageNamed:@"tabBase2"]];
+    //[self.m_tabBaseImageView setImage:[UIImage imageNamed:@"tabBase2"]];
     [self.view bringSubviewToFront:self.m_standingBttn];
     [self.view bringSubviewToFront:self.m_currentPosesScrollView];
     [self loadPosesForCategory:@"Standing"];
@@ -600,7 +600,7 @@ message:msg delegate:nil cancelButtonTitle:@"OK"
     self.m_floorBttn.enabled = YES;
     // bring base to front then button
     [self.view bringSubviewToFront:self.m_tabBaseImageView];
-    [self.m_tabBaseImageView setImage:[UIImage imageNamed:@"tabBase3"]];
+    //[self.m_tabBaseImageView setImage:[UIImage imageNamed:@"tabBase3"]];
     [self.view bringSubviewToFront:self.m_sittingBttn];
     [self.view bringSubviewToFront:self.m_currentPosesScrollView];
     [self loadPosesForCategory:@"Sitting"];
@@ -613,8 +613,8 @@ message:msg delegate:nil cancelButtonTitle:@"OK"
     self.m_sittingBttn.enabled = YES;
     self.m_floorBttn.enabled = NO;
     // bring base to front then button
-    [self.view bringSubviewToFront:self.m_tabBaseImageView];
-    [self.m_tabBaseImageView setImage:[UIImage imageNamed:@"tabBase4"]];
+  //  [self.view bringSubviewToFront:self.m_tabBaseImageView];
+   // [self.m_tabBaseImageView setImage:[UIImage imageNamed:@"tabBase4"]];
     [self.view bringSubviewToFront:self.m_floorBttn];
     [self.view bringSubviewToFront:self.m_currentPosesScrollView];
     [self loadPosesForCategory:@"Floor"];
