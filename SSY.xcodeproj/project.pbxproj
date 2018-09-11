@@ -270,6 +270,7 @@
 		B6C3469A19634886009B3EB5 /* Warrior Two T.png in Resources */ = {isa = PBXBuildFile; fileRef = B6C3463A19634886009B3EB5 /* Warrior Two T.png */; };
 		B6C3469B19634886009B3EB5 /* Warrior Two T@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B6C3463B19634886009B3EB5 /* Warrior Two T@2x.png */; };
 		B6C3469E19647AF4009B3EB5 /* FeaturedPoseCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B6C3469D19647AF4009B3EB5 /* FeaturedPoseCollectionViewCell.m */; };
+		B6C5A7D321484A4000D372B3 /* JustAnEmptyFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C5A7D221484A4000D372B3 /* JustAnEmptyFile.swift */; };
 		B6C7B05B1905BDC2006BCE79 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6C7B05A1905BDC2006BCE79 /* AVFoundation.framework */; };
 		B6C7B05D1905D966006BCE79 /* ssyaboutphoto.JPG in Resources */ = {isa = PBXBuildFile; fileRef = B6C7B05C1905D966006BCE79 /* ssyaboutphoto.JPG */; };
 		B6C911A6197DB20700440035 /* SavedBG@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B6C911A4197DB20700440035 /* SavedBG@2x.png */; };
@@ -310,13 +311,6 @@
 		C001ACE316A781F500CCBFD8 /* sequenceInactive.png in Resources */ = {isa = PBXBuildFile; fileRef = C001ACE116A781F400CCBFD8 /* sequenceInactive.png */; };
 		C001ACE416A781F500CCBFD8 /* sequenceInactive@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C001ACE216A781F500CCBFD8 /* sequenceInactive@2x.png */; };
 		C0167AA516C8015D005EBBCF /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0167AA416C8015D005EBBCF /* StoreKit.framework */; };
-		C0167AB716C801B6005EBBCF /* NSData+MKBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = C0167AAA16C801B6005EBBCF /* NSData+MKBase64.m */; };
-		C0167AB816C801B6005EBBCF /* SFHFKeychainUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = C0167AAC16C801B6005EBBCF /* SFHFKeychainUtils.m */; };
-		C0167AB916C801B6005EBBCF /* MKSKProduct.m in Sources */ = {isa = PBXBuildFile; fileRef = C0167AAE16C801B6005EBBCF /* MKSKProduct.m */; };
-		C0167ABA16C801B6005EBBCF /* MKSKSubscriptionProduct.m in Sources */ = {isa = PBXBuildFile; fileRef = C0167AB016C801B6005EBBCF /* MKSKSubscriptionProduct.m */; };
-		C0167ABB16C801B6005EBBCF /* MKStoreKitConfigs.plist in Resources */ = {isa = PBXBuildFile; fileRef = C0167AB216C801B6005EBBCF /* MKStoreKitConfigs.plist */; };
-		C0167ABC16C801B6005EBBCF /* MKStoreManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C0167AB416C801B6005EBBCF /* MKStoreManager.m */; };
-		C0167ABD16C801B6005EBBCF /* VerificationController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0167AB616C801B6005EBBCF /* VerificationController.m */; };
 		C0167ABF16C801F5005EBBCF /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0167ABE16C801F5005EBBCF /* Security.framework */; };
 		C0167AC216C81339005EBBCF /* DEStoreKitManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C0167AC116C81339005EBBCF /* DEStoreKitManager.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		C040C01216B9EDA000A54C79 /* speedActive~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = C040C01016B9EDA000A54C79 /* speedActive~ipad.png */; };
@@ -912,6 +906,8 @@
 		B6C3463B19634886009B3EB5 /* Warrior Two T@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Warrior Two T@2x.png"; sourceTree = "<group>"; };
 		B6C3469C19647AF4009B3EB5 /* FeaturedPoseCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeaturedPoseCollectionViewCell.h; sourceTree = "<group>"; };
 		B6C3469D19647AF4009B3EB5 /* FeaturedPoseCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeaturedPoseCollectionViewCell.m; sourceTree = "<group>"; };
+		B6C5A7D121484A3F00D372B3 /* SSY-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SSY-Bridging-Header.h"; sourceTree = "<group>"; };
+		B6C5A7D221484A4000D372B3 /* JustAnEmptyFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JustAnEmptyFile.swift; sourceTree = "<group>"; };
 		B6C7B05A1905BDC2006BCE79 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		B6C7B05C1905D966006BCE79 /* ssyaboutphoto.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ssyaboutphoto.JPG; sourceTree = "<group>"; };
 		B6C911A4197DB20700440035 /* SavedBG@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SavedBG@2x.png"; sourceTree = "<group>"; };
@@ -952,20 +948,6 @@
 		C001ACE116A781F400CCBFD8 /* sequenceInactive.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sequenceInactive.png; sourceTree = "<group>"; };
 		C001ACE216A781F500CCBFD8 /* sequenceInactive@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sequenceInactive@2x.png"; sourceTree = "<group>"; };
 		C0167AA416C8015D005EBBCF /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
-		C0167AA916C801B6005EBBCF /* NSData+MKBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+MKBase64.h"; sourceTree = "<group>"; };
-		C0167AAA16C801B6005EBBCF /* NSData+MKBase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+MKBase64.m"; sourceTree = "<group>"; };
-		C0167AAB16C801B6005EBBCF /* SFHFKeychainUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFHFKeychainUtils.h; sourceTree = "<group>"; };
-		C0167AAC16C801B6005EBBCF /* SFHFKeychainUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFHFKeychainUtils.m; sourceTree = "<group>"; };
-		C0167AAD16C801B6005EBBCF /* MKSKProduct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKSKProduct.h; sourceTree = "<group>"; };
-		C0167AAE16C801B6005EBBCF /* MKSKProduct.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKSKProduct.m; sourceTree = "<group>"; };
-		C0167AAF16C801B6005EBBCF /* MKSKSubscriptionProduct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKSKSubscriptionProduct.h; sourceTree = "<group>"; };
-		C0167AB016C801B6005EBBCF /* MKSKSubscriptionProduct.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKSKSubscriptionProduct.m; sourceTree = "<group>"; };
-		C0167AB116C801B6005EBBCF /* MKStoreKitConfigs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKStoreKitConfigs.h; sourceTree = "<group>"; };
-		C0167AB216C801B6005EBBCF /* MKStoreKitConfigs.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = MKStoreKitConfigs.plist; sourceTree = "<group>"; };
-		C0167AB316C801B6005EBBCF /* MKStoreManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKStoreManager.h; sourceTree = "<group>"; };
-		C0167AB416C801B6005EBBCF /* MKStoreManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKStoreManager.m; sourceTree = "<group>"; };
-		C0167AB516C801B6005EBBCF /* VerificationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VerificationController.h; sourceTree = "<group>"; };
-		C0167AB616C801B6005EBBCF /* VerificationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VerificationController.m; sourceTree = "<group>"; };
 		C0167ABE16C801F5005EBBCF /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		C0167AC016C81339005EBBCF /* DEStoreKitManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DEStoreKitManager.h; sourceTree = "<group>"; };
 		C0167AC116C81339005EBBCF /* DEStoreKitManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DEStoreKitManager.m; sourceTree = "<group>"; };
@@ -1641,33 +1623,13 @@
 			name = "IAP Images";
 			sourceTree = "<group>";
 		};
-		C0167AA716C801A1005EBBCF /* MKStoreKit */ = {
+		B6C5A7D021484A2000D372B3 /* Build Help */ = {
 			isa = PBXGroup;
 			children = (
-				C0167AA816C801B6005EBBCF /* Externals */,
-				C0167AAD16C801B6005EBBCF /* MKSKProduct.h */,
-				C0167AAE16C801B6005EBBCF /* MKSKProduct.m */,
-				C0167AAF16C801B6005EBBCF /* MKSKSubscriptionProduct.h */,
-				C0167AB016C801B6005EBBCF /* MKSKSubscriptionProduct.m */,
-				C0167AB116C801B6005EBBCF /* MKStoreKitConfigs.h */,
-				C0167AB216C801B6005EBBCF /* MKStoreKitConfigs.plist */,
-				C0167AB316C801B6005EBBCF /* MKStoreManager.h */,
-				C0167AB416C801B6005EBBCF /* MKStoreManager.m */,
-				C0167AB516C801B6005EBBCF /* VerificationController.h */,
-				C0167AB616C801B6005EBBCF /* VerificationController.m */,
+				B6C5A7D221484A4000D372B3 /* JustAnEmptyFile.swift */,
+				B6C5A7D121484A3F00D372B3 /* SSY-Bridging-Header.h */,
 			);
-			name = MKStoreKit;
-			sourceTree = "<group>";
-		};
-		C0167AA816C801B6005EBBCF /* Externals */ = {
-			isa = PBXGroup;
-			children = (
-				C0167AA916C801B6005EBBCF /* NSData+MKBase64.h */,
-				C0167AAA16C801B6005EBBCF /* NSData+MKBase64.m */,
-				C0167AAB16C801B6005EBBCF /* SFHFKeychainUtils.h */,
-				C0167AAC16C801B6005EBBCF /* SFHFKeychainUtils.m */,
-			);
-			path = Externals;
+			path = "Build Help";
 			sourceTree = "<group>";
 		};
 		C040C01716BA156800A54C79 /* Pose Slides */ = {
@@ -1756,6 +1718,7 @@
 		C047A13016A70CF400DCF7F5 = {
 			isa = PBXGroup;
 			children = (
+				B6C5A7D021484A2000D372B3 /* Build Help */,
 				B698C1DE172F2DC40034A725 /* Default-Landscape@2x~ipad.png */,
 				B698C1DC172F2DBC0034A725 /* Default-Landscape~ipad.png */,
 				B698C1DA172F2A180034A725 /* Default-568h@2x.png */,
@@ -1880,7 +1843,6 @@
 				C0F95CD216C8236D00B25FB2 /* MBProgressHUD.m */,
 				C0167AC016C81339005EBBCF /* DEStoreKitManager.h */,
 				C0167AC116C81339005EBBCF /* DEStoreKitManager.m */,
-				C0167AA716C801A1005EBBCF /* MKStoreKit */,
 				C0446AD816C7688500CD19FA /* SMPageControl.h */,
 				C0446AD916C7688500CD19FA /* SMPageControl.m */,
 				C0446AD516C75BF300CD19FA /* ASDepthModalViewController.h */,
@@ -2317,6 +2279,7 @@
 				TargetAttributes = {
 					C047A13A16A70CF500DCF7F5 = {
 						DevelopmentTeam = H9PT27F5ZX;
+						LastSwiftMigration = 0940;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -2658,7 +2621,6 @@
 				C0FDF61016BA381B00CA4A0B /* Disclaimer.htm in Resources */,
 				C0446ADD16C7730E00CD19FA /* lockedFrame~ipad.png in Resources */,
 				C0446ADE16C7730E00CD19FA /* lockedFrame~ipad@2x.png in Resources */,
-				C0167ABB16C801B6005EBBCF /* MKStoreKitConfigs.plist in Resources */,
 				B6C3467919634886009B3EB5 /* Pretzel T@2x.png in Resources */,
 				C0DAFCE216D03DCE00DC978C /* Icon@2x.png in Resources */,
 				B6C3467E19634886009B3EB5 /* Rainbow T.png in Resources */,
@@ -2949,11 +2911,15 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-SSY/Pods-SSY-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/IAPManager/IAPManager.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyStoreKit/SwiftyStoreKit.framework",
 				"${BUILT_PRODUCTS_DIR}/UIAlertController-MZStyle/UIAlertController_MZStyle.framework",
 				"${BUILT_PRODUCTS_DIR}/apptentive-ios/Apptentive.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IAPManager.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyStoreKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/UIAlertController_MZStyle.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Apptentive.framework",
 			);
@@ -2983,6 +2949,7 @@
 				B6C345DA19633B9F009B3EB5 /* PoseCollectionViewCell.m in Sources */,
 				C079FF1B16ACB5B500621C37 /* VideoPlayerViewController.m in Sources */,
 				C0429C9A16AF2B4B00F6DC8A /* SharePopover.m in Sources */,
+				B6C5A7D321484A4000D372B3 /* JustAnEmptyFile.swift in Sources */,
 				C0429C9E16B17B7800F6DC8A /* InfoViewController.m in Sources */,
 				C0429CAD16B18ED100F6DC8A /* WebViewController.m in Sources */,
 				C0F99F6F16B31AA9007985CA /* GuidelineViewController.m in Sources */,
@@ -2993,14 +2960,8 @@
 				C0446AC316C74DCE00CD19FA /* PurchaseViewController.m in Sources */,
 				C0446AD716C75BF300CD19FA /* ASDepthModalViewController.m in Sources */,
 				C0446ADA16C7688500CD19FA /* SMPageControl.m in Sources */,
-				C0167AB716C801B6005EBBCF /* NSData+MKBase64.m in Sources */,
 				B6AEC29F196093980034647E /* IAPViewController.m in Sources */,
-				C0167AB816C801B6005EBBCF /* SFHFKeychainUtils.m in Sources */,
-				C0167AB916C801B6005EBBCF /* MKSKProduct.m in Sources */,
-				C0167ABA16C801B6005EBBCF /* MKSKSubscriptionProduct.m in Sources */,
 				B6AEC2A5196095310034647E /* PurchaseTableViewCell.m in Sources */,
-				C0167ABC16C801B6005EBBCF /* MKStoreManager.m in Sources */,
-				C0167ABD16C801B6005EBBCF /* VerificationController.m in Sources */,
 				C0167AC216C81339005EBBCF /* DEStoreKitManager.m in Sources */,
 				C0F95CD316C8236D00B25FB2 /* MBProgressHUD.m in Sources */,
 				B6C3469E19647AF4009B3EB5 /* FeaturedPoseCollectionViewCell.m in Sources */,
@@ -3152,6 +3113,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer: Deb Weiss-Gelmi (2RB5JP85UV)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
@@ -3159,6 +3121,66 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SSY/SSY-Prefix.pch";
 				INFOPLIST_FILE = "SSY/SSY-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SSY",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-framework",
+					Accelerate,
+					"-framework",
+					AssetsLibrary,
+					"-framework",
+					CoreData,
+					"-framework",
+					CoreGraphics,
+					"-framework",
+					CoreText,
+					"-framework",
+					Foundation,
+					"-framework",
+					QuartzCore,
+					"-framework",
+					SystemConfiguration,
+					"-framework",
+					UIKit,
+					"-weak_framework",
+					CoreTelephony,
+					"-weak_framework",
+					StoreKit,
+					"-all_load",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ssy.singsongyoga;
+				PRODUCT_NAME = SingSongYoga;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Build Help/SSY-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C047A16416A70CF500DCF7F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5FDE7086DB71614626E612D7 /* Pods-SSY.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Deb Weiss-Gelmi (2RB5JP85UV)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SSY/SSY-Prefix.pch";
+				INFOPLIST_FILE = "SSY/SSY-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/SSY",
@@ -3196,59 +3218,8 @@
 				PROVISIONING_PROFILE = "";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				WRAPPER_EXTENSION = app;
-			};
-			name = Debug;
-		};
-		C047A16416A70CF500DCF7F5 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5FDE7086DB71614626E612D7 /* Pods-SSY.release.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Deb Weiss-Gelmi (2RB5JP85UV)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "SSY/SSY-Prefix.pch";
-				INFOPLIST_FILE = "SSY/SSY-Info.plist";
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/SSY",
-				);
-				OTHER_LDFLAGS = (
-					"-ObjC",
-					"-framework",
-					Accelerate,
-					"-framework",
-					AssetsLibrary,
-					"-framework",
-					CoreData,
-					"-framework",
-					CoreGraphics,
-					"-framework",
-					CoreText,
-					"-framework",
-					Foundation,
-					"-framework",
-					QuartzCore,
-					"-framework",
-					SystemConfiguration,
-					"-framework",
-					UIKit,
-					"-weak_framework",
-					CoreTelephony,
-					"-weak_framework",
-					StoreKit,
-					"-all_load",
-					"$(inherited)",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.ssy.singsongyoga;
-				PRODUCT_NAME = SingSongYoga;
-				PROVISIONING_PROFILE = "";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Build Help/SSY-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

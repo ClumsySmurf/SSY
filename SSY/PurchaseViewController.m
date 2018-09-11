@@ -173,38 +173,38 @@
         
         NSLog(@"Trying to purchase package; %@", package.debugDescription);
     
-        [[MKStoreManager sharedManager] buyFeature:[package objectForKey:@"App"]
-                                    onComplete:^(NSString *purchasedFeature, NSData *purchasedReceipt, NSArray *availableDownloads) {
-                                        [SSY unlockPackage:[packages objectAtIndex:currentPage]];
-                                        [MBProgressHUD hideAllHUDsForView:self.view animated:YES];
-                                        [self trackPurchasedPackage:package receipt:purchasedReceipt];
-                                      
-                                        [self closeAction];
-                                    } onCancelled:^{
-                                        NSLog(@"Cancelled");
-                                      //  [timeout invalidate];
-                                         [MBProgressHUD hideAllHUDsForView:self.view animated:YES];
-                                    }];
+//        [[MKStoreManager sharedManager] buyFeature:[package objectForKey:@"App"]
+//                                    onComplete:^(NSString *purchasedFeature, NSData *purchasedReceipt, NSArray *availableDownloads) {
+//                                        [SSY unlockPackage:[packages objectAtIndex:currentPage]];
+//                                        [MBProgressHUD hideAllHUDsForView:self.view animated:YES];
+//                                        [self trackPurchasedPackage:package receipt:purchasedReceipt];
+//
+//                                        [self closeAction];
+//                                    } onCancelled:^{
+//                                        NSLog(@"Cancelled");
+//                                      //  [timeout invalidate];
+//                                         [MBProgressHUD hideAllHUDsForView:self.view animated:YES];
+//                                    }];
     }
     else
     {
         if (currentPage == 0)
         {
-            [[MKStoreManager sharedManager] buyFeature:[data objectForKey:@"App"]
-                                        onComplete:^(NSString *purchasedFeature, NSData *purchasedReceipt, NSArray *availableDownloads) {
-                                        
-                                            if (itemType == kPoseFrame)
-                                                [SSY unlockPose:[data objectForKey:@"Name"]];
-                                            else
-                                                [SSY unlockSequenceWithIdentifier:data[@"App"]];
-                                            
-                                            [self trackPurchasedPackage:data receipt:purchasedReceipt];
-                                             [MBProgressHUD hideAllHUDsForView:self.view animated:YES];
-                                            [self closeAction];
-                                        } onCancelled:^{
-                                            NSLog(@"Cancelled");
-                                             [MBProgressHUD hideAllHUDsForView:self.view animated:YES];
-                                        }];
+//            [[MKStoreManager sharedManager] buyFeature:[data objectForKey:@"App"]
+//                                        onComplete:^(NSString *purchasedFeature, NSData *purchasedReceipt, NSArray *availableDownloads) {
+//
+//                                            if (itemType == kPoseFrame)
+//                                                [SSY unlockPose:[data objectForKey:@"Name"]];
+//                                            else
+//                                                [SSY unlockSequenceWithIdentifier:data[@"App"]];
+//
+//                                            [self trackPurchasedPackage:data receipt:purchasedReceipt];
+//                                             [MBProgressHUD hideAllHUDsForView:self.view animated:YES];
+//                                            [self closeAction];
+//                                        } onCancelled:^{
+//                                            NSLog(@"Cancelled");
+//                                             [MBProgressHUD hideAllHUDsForView:self.view animated:YES];
+//                                        }];
         }
         else
         {
@@ -212,17 +212,17 @@
             
             NSLog(@"Trying to get package: %@", package.debugDescription);
             
-            [[MKStoreManager sharedManager] buyFeature:[package objectForKey:@"App"]
-                                            onComplete:^(NSString *purchasedFeature, NSData *purchasedReceipt, NSArray *availableDownloads) {
-                                                [timeout invalidate];
-                                                [self trackPurchasedPackage:package receipt:purchasedReceipt];
-                                                [SSY unlockPackage:[packages objectAtIndex:currentPage]];
-                                                [MBProgressHUD hideAllHUDsForView:self.view animated:YES];
-                                                [self closeAction];
-                                            } onCancelled:^{
-                                                NSLog(@"Cancelled");
-                                                [MBProgressHUD hideAllHUDsForView:self.view animated:YES];
-                                            }];
+//            [[MKStoreManager sharedManager] buyFeature:[package objectForKey:@"App"]
+//                                            onComplete:^(NSString *purchasedFeature, NSData *purchasedReceipt, NSArray *availableDownloads) {
+//                                                [timeout invalidate];
+//                                                [self trackPurchasedPackage:package receipt:purchasedReceipt];
+//                                                [SSY unlockPackage:[packages objectAtIndex:currentPage]];
+//                                                [MBProgressHUD hideAllHUDsForView:self.view animated:YES];
+//                                                [self closeAction];
+//                                            } onCancelled:^{
+//                                                NSLog(@"Cancelled");
+//                                                [MBProgressHUD hideAllHUDsForView:self.view animated:YES];
+//                                            }];
 
         }
     }

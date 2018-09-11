@@ -7,7 +7,7 @@
 //
 
 #import "SSY.h"
-#import "MKStoreManager.h"
+//#import "MKStoreManager.h"
 @implementation SSY
 
 

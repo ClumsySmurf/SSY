@@ -1,20 +1,28 @@
 PODS:
   - apptentive-ios (5.2.0)
+  - IAPManager (0.2.4)
+  - SwiftyStoreKit (0.13.3)
   - UIAlertController-MZStyle (1.0.0)
 
 DEPENDENCIES:
   - apptentive-ios
+  - IAPManager
+  - SwiftyStoreKit
   - UIAlertController-MZStyle
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - apptentive-ios
+    - IAPManager
+    - SwiftyStoreKit
     - UIAlertController-MZStyle
 
 SPEC CHECKSUMS:
   apptentive-ios: d2aee87c1fce20ef797752192fe30967b5da5b8f
+  IAPManager: 0e5336926a1a88ab372861e77eb0203cb0d8ef21
+  SwiftyStoreKit: 9ebd15971e28aa2989825fe8bc092eb5f75dd0b2
   UIAlertController-MZStyle: 2659de771525f994c99b8c3be506304a4b080b03
 
-PODFILE CHECKSUM: 0a0d103f91f0031933acac5fac7fc27af7978344
+PODFILE CHECKSUM: c7a0ebef6f13ae981c5ba3f950bf211140247fea
 
 COCOAPODS: 1.6.0.beta.1

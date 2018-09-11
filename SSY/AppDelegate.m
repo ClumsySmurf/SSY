@@ -23,7 +23,7 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
-    [MKStoreManager sharedManager];
+    //[MKStoreManager sharedManager];
     
     // Optional: set Google Analytics dispatch interval to e.g. 20 seconds.
     

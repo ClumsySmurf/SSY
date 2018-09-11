@@ -7,14 +7,16 @@
 //
 
 #import "InfoViewController.h"
-#import "MKStoreManager.h"
+//#import "MKStoreManager.h"
 #import "GAI.h"
 #import "GAIDictionaryBuilder.h"
+
 
 @interface InfoViewController ()
 
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
 @property (weak, nonatomic) IBOutlet UIButton *closeBttn;
+
 @end
 
 @implementation InfoViewController
@@ -203,6 +205,10 @@
 - (void)restorePurchases
 {
     [MBProgressHUD showHUDAddedTo:self.view animated:YES];
+    
+    
+    
+    /*
     [[MKStoreManager sharedManager] restorePreviousTransactionsOnComplete:^{
 
         NSArray *products  = [[MKStoreManager sharedManager] purchasableObjects];
@@ -221,7 +227,7 @@
         [MBProgressHUD hideAllHUDsForView:self.view animated:YES];
         [self showAlertWithTitle:@"Error" andMsg:@"Something went wrong restoring your purchaes, please try again"];
     }];
-    
+    */
        
 }
 - (void)showTutorial

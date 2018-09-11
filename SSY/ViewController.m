@@ -28,7 +28,7 @@
     
     dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(2 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
         [SSY checkSSYData];
-        [MKStoreManager sharedManager];
+       // [MKStoreManager sharedManager];
         [[Apptentive sharedConnection] setAppID:@"599114266"];
         //[[Apptentive sharedConnection] setShowTagline:NO];
         [[Apptentive sharedConnection] engage:@"init" fromViewController:self];

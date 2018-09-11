@@ -11,6 +11,7 @@
 #import <Social/Social.h>
 #import "GuidelineViewController.h"
 #import <MessageUI/MessageUI.h>
+#import <StoreKit/StoreKit.h>
 
 @protocol InfoViewControllerDelegate <NSObject>
 @optional

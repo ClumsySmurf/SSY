@@ -7,7 +7,6 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "MKStoreManager.h"
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 

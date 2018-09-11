@@ -8,7 +8,8 @@
 
 #import <UIKit/UIKit.h>
 #import "FrameView.h"
-#import "MKStoreManager.h"
+//#import "MKStoreManager.h"
+#import <StoreKit/StoreKit.h>
 #import "DEStoreKitManager.h"
 
 @protocol PurchaseViewControllerDelegate <NSObject>
