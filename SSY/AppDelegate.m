@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-#import "ATConnect.h"
+#import "Apptentive.h"
 #import "GAI.h"
 
 

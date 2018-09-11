@@ -7,7 +7,7 @@
 //
 
 #import "CanvasViewController.h"
-#import "ATConnect.h"
+#import "Apptentive.h"
 #import "GAI.h"
 #import "GAIDictionaryBuilder.h"
 
@@ -117,11 +117,11 @@
 - (void)viewDidAppear:(BOOL)animated {
     [super viewDidAppear:animated];
    
-    [[ATConnect sharedConnection] engage:@"canvas_shown" fromViewController:self];
+    [[Apptentive sharedConnection] engage:@"canvas_shown" fromViewController:self];
     
     dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(15 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
-        [[ATConnect sharedConnection] engage:@"launch_survey" fromViewController:self];
-        [[ATConnect sharedConnection] engage:@"show_ratings_prompt" fromViewController:self];
+        [[Apptentive sharedConnection] engage:@"launch_survey" fromViewController:self];
+        [[Apptentive sharedConnection] engage:@"show_ratings_prompt" fromViewController:self];
        
     });
 

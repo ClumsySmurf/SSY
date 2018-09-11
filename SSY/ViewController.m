@@ -7,8 +7,8 @@
 //
 
 #import "ViewController.h"
-#import "ATConnect.h"
-#import "ATConnect_Debugging.h"
+#import "Apptentive.h"
+//#import "ATConnect_Debugging.h"
 
 
 @interface ViewController ()
@@ -23,17 +23,15 @@
     [super viewDidLoad];
 	
     
-    //[[ATConnect sharedConnection] setDebuggingOptions:ATConnectDebuggingOptionsShowDebugPanel];
+    //[[Apptentive sharedConnection] setDebuggingOptions:ATConnectDebuggingOptionsShowDebugPanel];
     
     
     dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(2 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
         [SSY checkSSYData];
         [MKStoreManager sharedManager];
-        [[ATConnect sharedConnection] setApiKey:@"0cee6b30437f17c3cb20c570b896efe5855bf03b10239a3477cf6d0cc174d0d9"];
-        
-        [[ATConnect sharedConnection] setShowTagline:NO];
-        [[ATConnect sharedConnection] setAppID:@"599114266"];
-        [[ATConnect sharedConnection] engage:@"init" fromViewController:self];
+        [[Apptentive sharedConnection] setAppID:@"599114266"];
+        //[[Apptentive sharedConnection] setShowTagline:NO];
+        [[Apptentive sharedConnection] engage:@"init" fromViewController:self];
         
     });
 
@@ -50,7 +48,7 @@
     
     self.topViewController = self.m_canvasViewController;
     
-    [[ATConnect sharedConnection] engage:@"did_finish_launching" fromViewController:self];
+    [[Apptentive sharedConnection] engage:@"did_finish_launching" fromViewController:self];
 
 }
 

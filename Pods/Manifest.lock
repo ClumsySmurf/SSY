@@ -1,18 +1,16 @@
 PODS:
-  - apptentive-ios (1.5.8):
-    - apptentive-ios/arc-files (= 1.5.8)
-  - apptentive-ios/arc-files (1.5.8)
+  - apptentive-ios (5.2.0)
 
 DEPENDENCIES:
-  - apptentive-ios (~> 1.5.2)
+  - apptentive-ios
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - apptentive-ios
 
 SPEC CHECKSUMS:
-  apptentive-ios: 7479e211ed0cf7328ab39123261c198d55e5609b
+  apptentive-ios: d2aee87c1fce20ef797752192fe30967b5da5b8f
 
-PODFILE CHECKSUM: 162303959ad9938a68c99a188004e63712e9d9ca
+PODFILE CHECKSUM: 65135009191d81153dd075a27362877c0f06a375
 
 COCOAPODS: 1.6.0.beta.1

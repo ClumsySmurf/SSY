@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		23342B2A217C491A85BC2CFF /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FACAA437B494643AFEDF493 /* libPods.a */; };
-		91F9BD351C1E531582E38725 /* libPods-SSY.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B5905E1B01E42CA83A4DD86 /* libPods-SSY.a */; };
 		B61F62FA1711E31000A6A260 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = B61F62EA1711E31000A6A260 /* 1.png */; };
 		B61F62FC1711E31000A6A260 /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = B61F62EC1711E31000A6A260 /* 3.png */; };
 		B61F62FD1711E31000A6A260 /* 4.png in Resources */ = {isa = PBXBuildFile; fileRef = B61F62ED1711E31000A6A260 /* 4.png */; };
@@ -624,10 +623,11 @@
 		C0F99F8316B432B0007985CA /* Namaste.m4v in Resources */ = {isa = PBXBuildFile; fileRef = C0F99F8216B432B0007985CA /* Namaste.m4v */; };
 		C0FDF60E16BA355700CA4A0B /* Guidelines.htm in Resources */ = {isa = PBXBuildFile; fileRef = C0FDF60D16BA355700CA4A0B /* Guidelines.htm */; };
 		C0FDF61016BA381B00CA4A0B /* Disclaimer.htm in Resources */ = {isa = PBXBuildFile; fileRef = C0FDF60F16BA381B00CA4A0B /* Disclaimer.htm */; };
+		E229BC185B698942476BF6EB /* Pods_SSY.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2267B8C25EE65E14ACF60F48 /* Pods_SSY.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		5B5905E1B01E42CA83A4DD86 /* libPods-SSY.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SSY.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2267B8C25EE65E14ACF60F48 /* Pods_SSY.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SSY.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FDE7086DB71614626E612D7 /* Pods-SSY.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SSY.release.xcconfig"; path = "Target Support Files/Pods-SSY/Pods-SSY.release.xcconfig"; sourceTree = "<group>"; };
 		98D8EF822D798C62543ABFDE /* Pods-SSY.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SSY.debug.xcconfig"; path = "Target Support Files/Pods-SSY/Pods-SSY.debug.xcconfig"; sourceTree = "<group>"; };
 		9FACAA437B494643AFEDF493 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -1332,7 +1332,7 @@
 				C047A14216A70CF500DCF7F5 /* Foundation.framework in Frameworks */,
 				C047A14416A70CF500DCF7F5 /* CoreGraphics.framework in Frameworks */,
 				23342B2A217C491A85BC2CFF /* libPods.a in Frameworks */,
-				91F9BD351C1E531582E38725 /* libPods-SSY.a in Frameworks */,
+				E229BC185B698942476BF6EB /* Pods_SSY.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1810,8 +1810,8 @@
 				C047A13F16A70CF500DCF7F5 /* UIKit.framework */,
 				C047A14116A70CF500DCF7F5 /* Foundation.framework */,
 				C047A14316A70CF500DCF7F5 /* CoreGraphics.framework */,
-				5B5905E1B01E42CA83A4DD86 /* libPods-SSY.a */,
 				9FACAA437B494643AFEDF493 /* libPods.a */,
+				2267B8C25EE65E14ACF60F48 /* Pods_SSY.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -2295,8 +2295,7 @@
 				C047A13716A70CF500DCF7F5 /* Sources */,
 				C047A13816A70CF500DCF7F5 /* Frameworks */,
 				C047A13916A70CF500DCF7F5 /* Resources */,
-				7C5254D016B341A7B532C500 /* Copy Pods Resources */,
-				ED67EFDFC4CC840B8C53305D /* [CP] Copy Pods Resources */,
+				D2F587284DCD13029189DD83 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -2313,7 +2312,7 @@
 		C047A13216A70CF400DCF7F5 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0510;
+				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = "SnapApps LLC";
 				TargetAttributes = {
 					C047A13A16A70CF500DCF7F5 = {
@@ -2928,21 +2927,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		7C5254D016B341A7B532C500 /* Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		8110F86A076347E7B5D52092 /* Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -2958,22 +2942,22 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		ED67EFDFC4CC840B8C53305D /* [CP] Copy Pods Resources */ = {
+		D2F587284DCD13029189DD83 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SSY/Pods-SSY-resources.sh",
-				"${PODS_CONFIGURATION_BUILD_DIR}/apptentive-ios/ApptentiveResources.bundle",
+				"${PODS_ROOT}/Target Support Files/Pods-SSY/Pods-SSY-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/apptentive-ios/Apptentive.framework",
 			);
-			name = "[CP] Copy Pods Resources";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ApptentiveResources.bundle",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Apptentive.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SSY/Pods-SSY-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SSY/Pods-SSY-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -3062,21 +3046,42 @@
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				ONLY_ACTIVE_ARCH = YES;
@@ -3097,14 +3102,34 @@
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
@@ -3125,7 +3150,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Deb Weiss-Gelmi (2RB5JP85UV)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = "";
@@ -3162,10 +3187,12 @@
 					"-weak_framework",
 					StoreKit,
 					"-all_load",
+					"$(inherited)",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ssy.singsongyoga;
 				PRODUCT_NAME = SingSongYoga;
 				PROVISIONING_PROFILE = "";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "DAB7E711-4A9B-4F59-A334-72C316ECAE5A";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				WRAPPER_EXTENSION = app;
 			};
@@ -3177,7 +3204,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Deb Weiss-Gelmi (2RB5JP85UV)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = "";
@@ -3213,10 +3240,12 @@
 					"-weak_framework",
 					StoreKit,
 					"-all_load",
+					"$(inherited)",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ssy.singsongyoga;
 				PRODUCT_NAME = SingSongYoga;
 				PROVISIONING_PROFILE = "";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "DAB7E711-4A9B-4F59-A334-72C316ECAE5A";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				WRAPPER_EXTENSION = app;
 			};

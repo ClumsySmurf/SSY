@@ -1,5 +1,6 @@
-platform :ios, '7.0'
+platform :ios, '11.0'
+use_frameworks!
 
 target 'SSY' do
-	pod 'apptentive-ios', '~> 1.5.2'
+	pod 'apptentive-ios'
 end
