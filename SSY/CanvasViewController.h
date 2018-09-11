@@ -13,13 +13,13 @@
 #import "VideoPlayerViewController.h"
 #import "SharePopover.h"
 #import <Social/Social.h>
-#import "WCAlertView.h"
 #import "SliderPopover.h"
 #import "ASDepthModalViewController.h"
 #import "PurchaseViewController.h"
 #import "InfoViewController.h"
 #import "PosesViewController.h"
 #import "TutorialViewController.h"
+#import "UIAlertController+MZStyle.h"
 
 @interface CanvasViewController : GAITrackedViewController <UIActionSheetDelegate, UIPopoverControllerDelegate,
 SharePopoverDelegate, SavedViewControllerDelegate, SliderPopoverDelegate,
@@ -27,7 +27,7 @@ FrameViewDelegate, PurchaseViewControllerDelegate, InfoViewControllerDelegate, P
 {
     NSDictionary *ssyData;
     NSMutableArray *currentPoses;
-    NSMutableArray *timelinePoses;
+   // NSMutableArray *timelinePoses;
     NSMutableArray *frameViews;
     NSMutableArray *timelineViews;
     
@@ -47,6 +47,7 @@ FrameViewDelegate, PurchaseViewControllerDelegate, InfoViewControllerDelegate, P
 
 @property (weak, nonatomic) IBOutlet UIImageView *smallLogoView;
 @property (nonatomic, strong) SavedViewController *m_savedViewController;
+@property (strong, nonatomic) NSMutableArray  *timelinePoses;
 @property (weak, nonatomic) IBOutlet UINavigationBar *m_navBar;
 @property (weak, nonatomic) IBOutlet UISlider *m_timeSlider;
 @property (weak, nonatomic) IBOutlet UILabel *m_maxLabel;

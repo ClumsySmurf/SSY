@@ -148,9 +148,11 @@ strip_invalid_archs() {
 
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
+  install_framework "${BUILT_PRODUCTS_DIR}/UIAlertController-MZStyle/UIAlertController_MZStyle.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/apptentive-ios/Apptentive.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
+  install_framework "${BUILT_PRODUCTS_DIR}/UIAlertController-MZStyle/UIAlertController_MZStyle.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/apptentive-ios/Apptentive.framework"
 fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then

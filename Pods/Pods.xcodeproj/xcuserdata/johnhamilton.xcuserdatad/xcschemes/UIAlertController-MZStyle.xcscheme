@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "5B87368BE7A48171959BF89D5F105559"
-               BuildableName = "Pods_SSY.framework"
-               BlueprintName = "Pods-SSY"
+               BlueprintIdentifier = "344BC81A734DFC2C4604BB93FB14C756"
+               BuildableName = "UIAlertController_MZStyle.framework"
+               BlueprintName = "UIAlertController-MZStyle"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -45,9 +45,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "5B87368BE7A48171959BF89D5F105559"
-            BuildableName = "Pods_SSY.framework"
-            BlueprintName = "Pods-SSY"
+            BlueprintIdentifier = "344BC81A734DFC2C4604BB93FB14C756"
+            BuildableName = "UIAlertController_MZStyle.framework"
+            BlueprintName = "UIAlertController-MZStyle"
             ReferencedContainer = "container:Pods.xcodeproj">
          </BuildableReference>
       </MacroExpansion>

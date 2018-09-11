@@ -1,0 +1,6 @@
+framework module UIAlertController_MZStyle {
+  umbrella header "UIAlertController-MZStyle-umbrella.h"
+
+  export *
+  module * { export * }
+}

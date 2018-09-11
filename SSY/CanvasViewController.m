@@ -174,7 +174,7 @@
     }
 
     currentPoses = [NSMutableArray array];
-    timelinePoses = [NSMutableArray array];
+    self.timelinePoses = [NSMutableArray array];
     frameViews = [NSMutableArray array];
     timelineViews = [NSMutableArray array];
     ssyData = [SSY sequences];
@@ -291,70 +291,80 @@
 
 - (IBAction)ClearAction:(id)sender {
     
-    [WCAlertView setDefaultStyle:WCAlertViewStyleBlackHatched];
+    [UIAlertController mz_applyCustomStyleForAlertControllerClass:[UIAlertController class]];
+
+    UIAlertController * alert = [UIAlertController alertControllerWithTitle:@"Clear Sequence Canvas" message:@"You are about to delete all of the poses from the Sequence Canvas." preferredStyle:UIAlertControllerStyleAlert];
     
-    [WCAlertView showAlertWithTitle:@"Clear Sequence Canvas" message:@"You are about to delete all of the poses from the Sequence Canvas."
-                 customizationBlock:^(WCAlertView *alertView) {
+    [alert addAction:[UIAlertAction actionWithTitle:@"Cancel" style:UIAlertActionStyleCancel handler:nil]];
+    
+    
+    __block CanvasViewController *blockSelf = self;
+    [alert addAction:[UIAlertAction actionWithTitle:@"Clear Canvas" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
         
-      
         
-    } completionBlock:^(NSUInteger buttonIndex, WCAlertView *alertView) {
+        [blockSelf.timelinePoses removeAllObjects];
         
-        if (buttonIndex != alertView.cancelButtonIndex)
-        {
-            [timelinePoses removeAllObjects];
-            [self reloadTimelineView];
+        [self reloadTimelineView];
+        
+        [UIView animateWithDuration:0.5f animations:^{
+            self.m_clearBttn.hidden = YES;
+            self.m_emptyImageView.hidden = NO;
+            self.m_emptyImageView.alpha = 1;
+        }];
             
-            [UIView animateWithDuration:0.5f animations:^{
-                self.m_clearBttn.hidden = YES;
-                self.m_emptyImageView.hidden = NO;
-                self.m_emptyImageView.alpha = 1;
-            }];
-        }
-        
-    } cancelButtonTitle:@"Cancel" otherButtonTitles:@"Clear Canvas", nil];
+    }]];
+    
+//                 customizationBlock:^(WCAlertView *alertView) {
+//
+//
+//
+//    } completionBlock:^(NSUInteger buttonIndex, WCAlertView *alertView) {
+//
+//
+//        }
+//
+//    } cancelButtonTitle:@"Cancel" otherButtonTitles:@"Clear Canvas", nil];
 
 }
 
 - (IBAction)SaveAction:(id)sender {
     
     
-    if ([timelinePoses count] < 1)
+    if ([self.timelinePoses count] < 1)
     {
         [self showAlertWithTitle:@"Error" andMsg:@"You need at least one pose in the Sequence Canvas in order to save a sequence"];
         return;
     }
-    [WCAlertView setDefaultStyle:WCAlertViewStyleBlackHatched];
+    //[WCAlertView setDefaultStyle:WCAlertViewStyleBlackHatched];
     
-    [WCAlertView showAlertWithTitle:@"Save Your Sequence" message:@"Name your yoga sequence being saved" customizationBlock:^(WCAlertView *alertView) {
+    UIAlertController * alert = [UIAlertController alertControllerWithTitle:@"Save Your Sequence" message:@"Name your yoga sequence being saved" preferredStyle:UIAlertControllerStyleAlert];
+    
+    [alert addAction:[UIAlertAction actionWithTitle:@"Cancel" style:UIAlertActionStyleCancel handler:nil]];
+    
+    [alert addTextFieldWithConfigurationHandler:^(UITextField * _Nonnull textField) {
         
-        alertView.alertViewStyle = UIAlertViewStylePlainTextInput;
-        
-        
-    } completionBlock:^(NSUInteger buttonIndex, WCAlertView *alertView) {
-        
-        
-        if (buttonIndex != alertView.cancelButtonIndex)
-        {
-            NSMutableDictionary *seq = [[NSMutableDictionary alloc] init];
-            UITextField *field = [alertView textFieldAtIndex:0];
-            [seq setObject:field.text forKey:@"Name"];
-            
-            NSMutableArray *poses = [[NSMutableArray alloc] init];
-            
-            for (NSDictionary *pose in timelinePoses)
-            {
-                [poses addObject:[pose objectForKey:@"Name"]];
-            }
-            
-            [seq setObject:poses forKey:@"Poses"];
-            [seq setObject:@"YES" forKey:@"Unlocked"];
-            
-            [SSY saveSequence:seq];
-            
-            
-        }
-    } cancelButtonTitle:@"Cancel" otherButtonTitles:@"Save", nil];
+    }];
+    
+    [alert addAction:[UIAlertAction actionWithTitle:@"Save" style:UIAlertActionStyleDefault
+                                            handler:^(UIAlertAction * _Nonnull action) {
+                                                
+                                                NSMutableDictionary *seq = [[NSMutableDictionary alloc] init];
+                                                UITextField *field = [alert.textFields firstObject];
+                                                [seq setObject:field.text forKey:@"Name"];
+                                                
+                                                NSMutableArray *poses = [[NSMutableArray alloc] init];
+                                                
+                                                for (NSDictionary *pose in self.timelinePoses)
+                                                {
+                                                    [poses addObject:[pose objectForKey:@"Name"]];
+                                                }
+                                                
+                                                [seq setObject:poses forKey:@"Poses"];
+                                                [seq setObject:@"YES" forKey:@"Unlocked"];
+                                                
+                                                [SSY saveSequence:seq];
+                                            }]];
+    
 }
 
 
@@ -376,14 +386,14 @@
     if (sliderPopover != nil && sliderPopover.isShown)
         [self hideSliderPopover];
     
-    if ([timelinePoses count] < 1)
+    if ([self.timelinePoses count] < 1)
     {
         [self showAlertWithTitle:@"Error" andMsg:@"There must be at least one pose on the Sequence Canvas to play."];
         return;
     }
     VideoPlayerViewController *view  = [self.storyboard instantiateViewControllerWithIdentifier:@"VideoPlayer"];
     view.modalTransitionStyle = UIModalTransitionStyleFlipHorizontal;
-    [view setPoses:[NSArray arrayWithArray:timelinePoses]];
+    [view setPoses:[NSArray arrayWithArray:self.timelinePoses]];
     view.transistionDelay = transistionDelay;
     [self presentViewController:view animated:YES completion:nil];
     
@@ -639,7 +649,7 @@ message:msg delegate:nil cancelButtonTitle:@"OK"
     self.m_emptyImageView.alpha = 0;
     NSArray *poses = [sequence objectForKey:@"Poses"];
     NSMutableArray *p = [SSY getPosesFromNames:poses];
-    [timelinePoses addObjectsFromArray:p];
+    [self.timelinePoses addObjectsFromArray:p];
     [self reloadTimelineView];
     [self.slidingViewController resetTopView];
 }
@@ -960,11 +970,11 @@ message:msg delegate:nil cancelButtonTitle:@"OK"
             
             if (intersects)
             {
-                if ([timelinePoses count] == 0)
+                if ([self.timelinePoses count] == 0)
                 {
                     if (viewBeingDragged.itemType == kPoseFrame)
                     {
-                        [timelinePoses addObject:viewBeingDragged.data]; // Just adds a pose to it
+                        [self.timelinePoses addObject:viewBeingDragged.data]; // Just adds a pose to it
                         [self trackerSendCategory:@"Canvas Screen" action:@"Pose Dragged to Canvas" label:viewBeingDragged.data[@"Name"] andValue:viewBeingDragged.data];
                         [viewBeingDragged removeFromSuperview];
                         viewBeingDragged = nil;
@@ -976,7 +986,7 @@ message:msg delegate:nil cancelButtonTitle:@"OK"
                                                  [viewBeingDragged.data objectForKey:@"Poses"]];
                           [self trackerSendCategory:@"Canvas Screen" action:@"Sequence Dragged to Canvas" label:viewBeingDragged.data[@"Name"] andValue:viewBeingDragged.data];
                         
-                        [timelinePoses addObjectsFromArray:poses];
+                        [self.timelinePoses addObjectsFromArray:poses];
                         
                         [viewBeingDragged removeFromSuperview];
                         viewBeingDragged = nil;
@@ -1006,7 +1016,7 @@ message:msg delegate:nil cancelButtonTitle:@"OK"
                     if (viewBeingDragged.itemType == kPoseFrame)
                     {
                         
-                        [timelinePoses insertObject:viewBeingDragged.data atIndex:locationToPlace];
+                        [self.timelinePoses insertObject:viewBeingDragged.data atIndex:locationToPlace];
                           [self trackerSendCategory:@"Canvas Screen" action:@"Pose Dragged to Canvas"
                                               label:viewBeingDragged.data[@"Name"] andValue:viewBeingDragged.data];
                     }
@@ -1022,7 +1032,7 @@ message:msg delegate:nil cancelButtonTitle:@"OK"
                         int counter = 0;
                         for (int i = locationToPlace; i<(locationToPlace + count); i++)
                         {
-                            [timelinePoses insertObject:[poses objectAtIndex:counter] atIndex:i];
+                            [self.timelinePoses insertObject:[poses objectAtIndex:counter] atIndex:i];
                             counter++;
                         }
 
@@ -1040,7 +1050,7 @@ message:msg delegate:nil cancelButtonTitle:@"OK"
         self.m_timelineScrollView.scrollEnabled = YES;
         self.m_currentPosesScrollView.scrollEnabled = YES;
      
-        if (self.m_emptyImageView.alpha == 0 && [timelinePoses count] == 0)
+        if (self.m_emptyImageView.alpha == 0 && [self.timelinePoses count] == 0)
         {
             [UIView animateWithDuration:0.5f animations:^{
                 self.m_emptyImageView.alpha = 1;
@@ -1080,17 +1090,17 @@ message:msg delegate:nil cancelButtonTitle:@"OK"
     FrameType fType = (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad) ? kiPadTimelineFrame : kiPhoneTimelineFrame;
     
     
-    for (int i = 0; i<[timelinePoses count]; i++)
+    for (int i = 0; i<[self.timelinePoses count]; i++)
     {
        
-            FrameView *view = [[FrameView alloc] initWithFrameType:fType itemType:kPoseFrame andObject:[timelinePoses objectAtIndex:i]
+            FrameView *view = [[FrameView alloc] initWithFrameType:fType itemType:kPoseFrame andObject:[self.timelinePoses objectAtIndex:i]
                                                        andLocation:CGPointMake((spacing * i) + padding, topPadding)];
             view.tag = i;
             totalWidth += view.frame.size.width;
             [self.m_timelineScrollView addSubview:view];
             [timelineViews addObject:view];
         
-            if (i > 0 && i<[timelinePoses count])
+            if (i > 0 && i<[self.timelinePoses count])
             {
                 UIImageView *star = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"plusShape"]];
                 star.frame = CGRectMake((spacing * i) + plusImagePadding,
@@ -1106,13 +1116,13 @@ message:msg delegate:nil cancelButtonTitle:@"OK"
             
            }
     
-    [self.m_timelineScrollView setContentSize:CGSizeMake((spacing * ([timelinePoses count]) + padding), self.m_currentPosesScrollView.contentSize.height)];
+    [self.m_timelineScrollView setContentSize:CGSizeMake((spacing * ([self.timelinePoses count]) + padding), self.m_currentPosesScrollView.contentSize.height)];
     
     self.m_timelineScrollView.contentInset = UIEdgeInsetsMake(0, 0, 0, 80);
     self.m_timelineScrollView.contentInset = UIEdgeInsetsMake(0, 20, 0, 20);
     [self updatePoseLabel];
     
-    if ([timelinePoses count] == 0)
+    if ([self.timelinePoses count] == 0)
     {
         [UIView animateWithDuration:0.5f
                          animations:^{
@@ -1194,7 +1204,7 @@ message:msg delegate:nil cancelButtonTitle:@"OK"
             
             FrameView *callingView = (FrameView *)gesture.view;
             [timelineViews removeObjectAtIndex:callingView.tag];
-            [timelinePoses removeObjectAtIndex:callingView.tag];
+            [self.timelinePoses removeObjectAtIndex:callingView.tag];
             FrameType type;
             
             [self trackerSendCategory:@"Canvas Screen" action:@"Dragging Pose In Timeline" label:callingView.data[@"Name"] andValue:nil];
@@ -1237,11 +1247,11 @@ message:msg delegate:nil cancelButtonTitle:@"OK"
             
             if (intersects)
             {
-                if ([timelinePoses count] == 0)
+                if ([self.timelinePoses count] == 0)
                 {
                     if (viewBeingDragged.itemType == kPoseFrame)
                     {
-                        [timelinePoses addObject:viewBeingDragged.data]; // Just adds a pose to it
+                        [self.timelinePoses addObject:viewBeingDragged.data]; // Just adds a pose to it
                         [viewBeingDragged removeFromSuperview];
                         viewBeingDragged = nil;
                         [self reloadTimelineView];
@@ -1251,7 +1261,7 @@ message:msg delegate:nil cancelButtonTitle:@"OK"
                         NSMutableArray *poses = [SSY getPosesFromNames:
                                                  [viewBeingDragged.data objectForKey:@"Poses"]];
                         
-                        [timelinePoses addObjectsFromArray:poses];
+                        [self.timelinePoses addObjectsFromArray:poses];
                         
                         [viewBeingDragged removeFromSuperview];
                         viewBeingDragged = nil;
@@ -1282,7 +1292,7 @@ message:msg delegate:nil cancelButtonTitle:@"OK"
                     if (viewBeingDragged.itemType == kPoseFrame)
                     {
                         
-                        [timelinePoses insertObject:viewBeingDragged.data atIndex:locationToPlace];
+                        [self.timelinePoses insertObject:viewBeingDragged.data atIndex:locationToPlace];
                     }
                     else
                     {
@@ -1295,7 +1305,7 @@ message:msg delegate:nil cancelButtonTitle:@"OK"
                         int counter = 0;
                         for (int i = locationToPlace; i<(locationToPlace + count); i++)
                         {
-                            [timelinePoses insertObject:[poses objectAtIndex:counter] atIndex:i];
+                            [self.timelinePoses insertObject:[poses objectAtIndex:counter] atIndex:i];
                             counter++;
                         }
                         
@@ -1314,7 +1324,7 @@ message:msg delegate:nil cancelButtonTitle:@"OK"
         self.m_timelineScrollView.scrollEnabled = YES;
         self.m_currentPosesScrollView.scrollEnabled = YES;
         
-        if (self.m_emptyImageView.alpha == 0 && [timelinePoses count] == 0)
+        if (self.m_emptyImageView.alpha == 0 && [self.timelinePoses count] == 0)
         {
             [UIView animateWithDuration:0.5f animations:^{
                 self.m_emptyImageView.alpha = 1;
@@ -1327,21 +1337,21 @@ message:msg delegate:nil cancelButtonTitle:@"OK"
 
 - (void)updatePoseLabel
 {
-    self.m_totalPosesLabel.text = [NSString stringWithFormat:@"TOTAL POSES - %d", [timelinePoses count]];
+    self.m_totalPosesLabel.text = [NSString stringWithFormat:@"TOTAL POSES - %d", [self.timelinePoses count]];
     
     float totalTime = 0;
     
      
-    for (NSDictionary *pose in timelinePoses)
+    for (NSDictionary *pose in self.timelinePoses)
     {
         totalTime += [[pose objectForKey:@"Length"] floatValue];
     }
 
-    if ([timelinePoses count] > 1)
+    if ([self.timelinePoses count] > 1)
     {
-        totalTime += ([timelinePoses count]-1) * transistionDelay;
+        totalTime += ([self.timelinePoses count]-1) * transistionDelay;
     }
-    if (timelinePoses.count > 0)
+    if (self.timelinePoses.count > 0)
         totalTime += 4;
     
     

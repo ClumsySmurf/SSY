@@ -2949,10 +2949,12 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-SSY/Pods-SSY-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/UIAlertController-MZStyle/UIAlertController_MZStyle.framework",
 				"${BUILT_PRODUCTS_DIR}/apptentive-ios/Apptentive.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/UIAlertController_MZStyle.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Apptentive.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;

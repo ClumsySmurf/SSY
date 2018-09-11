@@ -3,4 +3,5 @@ use_frameworks!
 
 target 'SSY' do
 	pod 'apptentive-ios'
+	pod 'UIAlertController-MZStyle'
 end
