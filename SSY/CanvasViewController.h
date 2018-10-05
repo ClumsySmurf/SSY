@@ -64,6 +64,7 @@ FrameViewDelegate, PurchaseViewControllerDelegate, InfoViewControllerDelegate, P
 @property (weak, nonatomic) IBOutlet UIScrollView *m_timelineScrollView;
 @property (weak, nonatomic) IBOutlet UIButton *m_clearBttn;
 @property (weak, nonatomic) IBOutlet UIImageView *m_sliderShadow;
+@property (weak, nonatomic) IBOutlet UISegmentedControl *m_segmentedControl;
 
 - (IBAction)ToggleSpeed:(UIButton *)sender;
 - (IBAction)DelayChanged:(id)sender;

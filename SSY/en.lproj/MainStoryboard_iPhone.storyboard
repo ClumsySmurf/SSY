@@ -294,18 +294,74 @@
                         <rect key="frame" x="0.0" y="0.0" width="480" height="320"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="bgTexture.png" translatesAutoresizingMaskIntoConstraints="NO" id="cmI-EZ-hWP" userLabel="Background Image VIew">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="bgTexture.png" translatesAutoresizingMaskIntoConstraints="NO" id="cmI-EZ-hWP" userLabel="Background Image VIew" propertyAccessControl="all">
                                 <rect key="frame" x="0.0" y="44" width="568" height="276"/>
                             </imageView>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ERT-EF-iHs" userLabel="Timeline ScrollView">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ERT-EF-iHs" userLabel="Timeline ScrollView" propertyAccessControl="all">
                                 <rect key="frame" x="0.0" y="171" width="480" height="106"/>
                             </scrollView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="bottomImage.png" translatesAutoresizingMaskIntoConstraints="NO" id="LL0-LM-iKg">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="bottomImage.png" translatesAutoresizingMaskIntoConstraints="NO" id="LL0-LM-iKg" propertyAccessControl="all">
                                 <rect key="frame" x="0.0" y="246" width="480" height="74"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" image="tabBase1.png" translatesAutoresizingMaskIntoConstraints="NO" id="DBm-Ie-K6K" userLabel="Tab Base">
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kQ0-Uj-ZLg" userLabel="STANDING POSES">
+                                <rect key="frame" x="158" y="107" width="86" height="43"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="7"/>
+                                <size key="titleShadowOffset" width="0.10000000000000001" height="0.0"/>
+                                <state key="normal" title="STANDING POSES" backgroundImage="inactiveTabIcon.png">
+                                    <color key="titleColor" red="0.42467730980000001" green="0.42467730980000001" blue="0.42467730980000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <state key="disabled" backgroundImage="transparentTab.png"/>
+                                <state key="selected" title="STANDING POSES" backgroundImage="transparentTab.png"/>
+                                <state key="highlighted">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="togglePoses:" destination="yJP-VI-UN7" eventType="touchUpInside" id="X5D-H3-pMA"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="3" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hNU-iY-Dq1" userLabel="FLOOR POSES">
+                                <rect key="frame" x="325" y="110" width="86" height="43"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="7"/>
+                                <size key="titleShadowOffset" width="0.10000000000000001" height="0.0"/>
+                                <state key="normal" title="FLOOR POSES" backgroundImage="inactiveTabIcon.png">
+                                    <color key="titleColor" red="0.42467730980000001" green="0.42467730980000001" blue="0.42467730980000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <state key="disabled" backgroundImage="transparentTab.png"/>
+                                <state key="selected" title="FLOOR POSES" backgroundImage="transparentTab.png"/>
+                                <state key="highlighted">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="togglePoses:" destination="yJP-VI-UN7" eventType="touchUpInside" id="C5h-8i-0nf"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" image="tabBase1.png" translatesAutoresizingMaskIntoConstraints="NO" id="DBm-Ie-K6K" userLabel="Tab Base" propertyAccessControl="all">
                                 <rect key="frame" x="0.0" y="-6" width="480" height="151"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yBf-bx-Vr7" userLabel="SSY SEQUENCES">
+                                <rect key="frame" x="84" y="106" width="80" height="43"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="80" id="pUo-bK-Ky0"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="7"/>
+                                <size key="titleShadowOffset" width="0.10000000000000001" height="0.0"/>
+                                <state key="normal" title="SSY SEQUENCES" backgroundImage="inactiveTabIcon.png">
+                                    <color key="titleColor" red="0.42467730980000001" green="0.42467730980000001" blue="0.42467730980000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <state key="disabled" title="SSY SEQUENCES" backgroundImage="transparentTab.png"/>
+                                <state key="selected" title="SSY SEQUENCES" backgroundImage="transparentTab.png"/>
+                                <state key="highlighted" backgroundImage="inactiveTabIcon.png">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="togglePoses:" destination="yJP-VI-UN7" eventType="touchUpInside" id="39O-3b-wHr"/>
+                                </connections>
+                            </button>
                             <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ibl-lV-RRl">
                                 <rect key="frame" x="0.0" y="0.0" width="480" height="44"/>
                                 <constraints>
@@ -423,88 +479,33 @@
                             <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" image="smallLogo.png" translatesAutoresizingMaskIntoConstraints="NO" id="7OS-8T-HDo">
                                 <rect key="frame" x="412" y="124" width="38" height="22"/>
                             </imageView>
-                            <stackView opaque="NO" contentMode="scaleAspectFit" distribution="equalSpacing" spacing="-40" translatesAutoresizingMaskIntoConstraints="NO" id="7tC-bL-k0r">
-                                <rect key="frame" x="81" y="106" width="338" height="43"/>
-                                <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yBf-bx-Vr7" userLabel="SSY SEQUENCES">
-                                        <rect key="frame" x="0.0" y="0.0" width="80" height="43"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="80" id="pUo-bK-Ky0"/>
-                                        </constraints>
-                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="7"/>
-                                        <size key="titleShadowOffset" width="0.10000000000000001" height="0.0"/>
-                                        <state key="normal" title="SSY SEQUENCES" backgroundImage="inactiveTabIcon.png">
-                                            <color key="titleColor" red="0.42467730980000001" green="0.42467730980000001" blue="0.42467730980000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        </state>
-                                        <state key="disabled" title="SSY SEQUENCES" backgroundImage="transparentTab.png"/>
-                                        <state key="selected" title="SSY SEQUENCES" backgroundImage="transparentTab.png"/>
-                                        <state key="highlighted" backgroundImage="inactiveTabIcon.png">
-                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        </state>
-                                        <connections>
-                                            <action selector="togglePoses:" destination="yJP-VI-UN7" eventType="touchUpInside" id="39O-3b-wHr"/>
-                                        </connections>
-                                    </button>
-                                    <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kQ0-Uj-ZLg" userLabel="STANDING POSES">
-                                        <rect key="frame" x="80" y="0.0" width="86" height="43"/>
-                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="7"/>
-                                        <size key="titleShadowOffset" width="0.10000000000000001" height="0.0"/>
-                                        <state key="normal" title="STANDING POSES" backgroundImage="inactiveTabIcon.png">
-                                            <color key="titleColor" red="0.42467730980000001" green="0.42467730980000001" blue="0.42467730980000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        </state>
-                                        <state key="disabled" backgroundImage="transparentTab.png"/>
-                                        <state key="selected" title="STANDING POSES" backgroundImage="transparentTab.png"/>
-                                        <state key="highlighted">
-                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        </state>
-                                        <connections>
-                                            <action selector="togglePoses:" destination="yJP-VI-UN7" eventType="touchUpInside" id="X5D-H3-pMA"/>
-                                        </connections>
-                                    </button>
-                                    <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6sE-Wa-lcw" userLabel="SITTING POSES">
-                                        <rect key="frame" x="166" y="0.0" width="86" height="43"/>
-                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="7"/>
-                                        <size key="titleShadowOffset" width="0.10000000000000001" height="0.0"/>
-                                        <state key="normal" title="SITTING POSES" backgroundImage="inactiveTabIcon.png">
-                                            <color key="titleColor" red="0.42467730980000001" green="0.42467730980000001" blue="0.42467730980000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        </state>
-                                        <state key="disabled" backgroundImage="transparentTab.png"/>
-                                        <state key="selected" title="SITTING POSES" backgroundImage="transparentTab.png"/>
-                                        <state key="highlighted">
-                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        </state>
-                                        <connections>
-                                            <action selector="togglePoses:" destination="yJP-VI-UN7" eventType="touchUpInside" id="vNP-5V-3zJ"/>
-                                        </connections>
-                                    </button>
-                                    <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hNU-iY-Dq1" userLabel="FLOOR POSES">
-                                        <rect key="frame" x="252" y="0.0" width="86" height="43"/>
-                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="7"/>
-                                        <size key="titleShadowOffset" width="0.10000000000000001" height="0.0"/>
-                                        <state key="normal" title="FLOOR POSES" backgroundImage="inactiveTabIcon.png">
-                                            <color key="titleColor" red="0.42467730980000001" green="0.42467730980000001" blue="0.42467730980000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        </state>
-                                        <state key="disabled" backgroundImage="transparentTab.png"/>
-                                        <state key="selected" title="FLOOR POSES" backgroundImage="transparentTab.png"/>
-                                        <state key="highlighted">
-                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        </state>
-                                        <connections>
-                                            <action selector="togglePoses:" destination="yJP-VI-UN7" eventType="touchUpInside" id="C5h-8i-0nf"/>
-                                        </connections>
-                                    </button>
-                                </subviews>
-                                <constraints>
-                                    <constraint firstItem="6sE-Wa-lcw" firstAttribute="leading" secondItem="kQ0-Uj-ZLg" secondAttribute="trailing" id="Gc0-FH-wc5"/>
-                                    <constraint firstAttribute="bottom" secondItem="kQ0-Uj-ZLg" secondAttribute="bottom" id="o1b-Zj-eIb"/>
-                                    <constraint firstItem="kQ0-Uj-ZLg" firstAttribute="leading" secondItem="yBf-bx-Vr7" secondAttribute="trailing" id="o68-H6-kRP"/>
-                                    <constraint firstItem="kQ0-Uj-ZLg" firstAttribute="top" secondItem="7tC-bL-k0r" secondAttribute="top" id="uJx-P1-Wrg"/>
-                                </constraints>
-                            </stackView>
+                            <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6sE-Wa-lcw" userLabel="SITTING POSES">
+                                <rect key="frame" x="241" y="112" width="86" height="31"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="7"/>
+                                <size key="titleShadowOffset" width="0.10000000000000001" height="0.0"/>
+                                <state key="normal" title="SITTING POSES" backgroundImage="inactiveTabIcon.png">
+                                    <color key="titleColor" red="0.42467730980000001" green="0.42467730980000001" blue="0.42467730980000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <state key="disabled" backgroundImage="transparentTab.png"/>
+                                <state key="selected" title="SITTING POSES" backgroundImage="transparentTab.png"/>
+                                <state key="highlighted">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="togglePoses:" destination="yJP-VI-UN7" eventType="touchUpInside" id="vNP-5V-3zJ"/>
+                                </connections>
+                            </button>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="vi9-HU-8fX">
+                                <rect key="frame" x="84" y="135" width="327" height="29"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <segments>
+                                    <segment title="SSY Sequences"/>
+                                    <segment title="Second"/>
+                                    <segment title=""/>
+                                    <segment title=""/>
+                                </segments>
+                            </segmentedControl>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -529,18 +530,19 @@
                             <constraint firstItem="rP1-VP-Gcy" firstAttribute="trailing" secondItem="ERT-EF-iHs" secondAttribute="trailing" id="MBP-UI-kWR"/>
                             <constraint firstItem="LL0-LM-iKg" firstAttribute="bottom" secondItem="BxO-mQ-ZtP" secondAttribute="top" id="NAb-TC-rj3"/>
                             <constraint firstItem="cmI-EZ-hWP" firstAttribute="bottom" secondItem="BxO-mQ-ZtP" secondAttribute="top" id="P2P-YV-aLm"/>
-                            <constraint firstItem="7tC-bL-k0r" firstAttribute="centerX" secondItem="Okn-I4-vga" secondAttribute="centerX" constant="10" id="PPk-7k-LsI"/>
+                            <constraint firstItem="yBf-bx-Vr7" firstAttribute="bottom" secondItem="nh8-D6-vOL" secondAttribute="bottom" id="RB9-xe-o1L"/>
                             <constraint firstItem="Ibl-lV-RRl" firstAttribute="leading" secondItem="rP1-VP-Gcy" secondAttribute="leading" id="SXc-nt-MWL"/>
                             <constraint firstItem="rP1-VP-Gcy" firstAttribute="leading" secondItem="0jy-rr-lCM" secondAttribute="leading" id="TVq-nX-FL8"/>
                             <constraint firstItem="ERT-EF-iHs" firstAttribute="top" secondItem="7OS-8T-HDo" secondAttribute="bottom" constant="25" id="Tan-jN-zfV"/>
-                            <constraint firstItem="ERT-EF-iHs" firstAttribute="top" secondItem="7tC-bL-k0r" secondAttribute="bottom" constant="22" id="VYX-71-Vhb"/>
                             <constraint firstItem="DBm-Ie-K6K" firstAttribute="top" secondItem="Okn-I4-vga" secondAttribute="top" constant="-6" id="ViN-ml-i96"/>
                             <constraint firstItem="DBm-Ie-K6K" firstAttribute="leading" secondItem="Okn-I4-vga" secondAttribute="leading" id="XvW-Ap-kPs"/>
                             <constraint firstItem="JEY-7l-XNF" firstAttribute="bottom" secondItem="B3d-vW-h4n" secondAttribute="bottom" id="YYp-29-SDf"/>
+                            <constraint firstItem="6sE-Wa-lcw" firstAttribute="baseline" secondItem="yBf-bx-Vr7" secondAttribute="baseline" id="ZAx-SZ-WOb"/>
                             <constraint firstItem="VfA-m1-2RQ" firstAttribute="leading" secondItem="JEY-7l-XNF" secondAttribute="trailing" constant="46" id="ZC9-sH-bdt"/>
                             <constraint firstItem="ERT-EF-iHs" firstAttribute="top" secondItem="DBm-Ie-K6K" secondAttribute="bottom" constant="26" id="ZOb-Vi-xHH"/>
                             <constraint firstItem="lVP-RO-pGa" firstAttribute="leading" secondItem="x2D-Cz-OWu" secondAttribute="trailing" constant="12" id="bds-HQ-xVf"/>
                             <constraint firstItem="x2D-Cz-OWu" firstAttribute="bottom" secondItem="lVP-RO-pGa" secondAttribute="bottom" id="cAI-gC-Afz"/>
+                            <constraint firstItem="6sE-Wa-lcw" firstAttribute="leading" secondItem="yBf-bx-Vr7" secondAttribute="trailing" constant="77" id="cP5-sX-ACA"/>
                             <constraint firstItem="x2D-Cz-OWu" firstAttribute="leading" secondItem="Okn-I4-vga" secondAttribute="leadingMargin" constant="62" id="csX-DL-49f"/>
                             <constraint firstItem="Ibl-lV-RRl" firstAttribute="leading" secondItem="Okn-I4-vga" secondAttribute="leading" id="d38-yw-fEz"/>
                             <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="nh8-D6-vOL" secondAttribute="trailing" constant="20" symbolic="YES" id="fOE-U6-eCs"/>
@@ -548,10 +550,10 @@
                             <constraint firstItem="rP1-VP-Gcy" firstAttribute="top" secondItem="cmI-EZ-hWP" secondAttribute="top" id="iKb-nd-fvG"/>
                             <constraint firstAttribute="trailing" secondItem="Ibl-lV-RRl" secondAttribute="trailing" id="ifb-oX-BSo"/>
                             <constraint firstItem="JEY-7l-XNF" firstAttribute="leading" secondItem="lVP-RO-pGa" secondAttribute="trailing" constant="42" id="kMC-Kq-Xdf"/>
+                            <constraint firstItem="yBf-bx-Vr7" firstAttribute="leading" secondItem="Okn-I4-vga" secondAttribute="leadingMargin" constant="68" id="kNr-zj-J16"/>
                             <constraint firstItem="JEY-7l-XNF" firstAttribute="top" secondItem="sL7-Lk-x4k" secondAttribute="bottom" constant="22" id="kna-p2-qwW"/>
                             <constraint firstItem="VfA-m1-2RQ" firstAttribute="top" secondItem="B3d-vW-h4n" secondAttribute="top" id="oic-2N-lPT"/>
                             <constraint firstItem="7OS-8T-HDo" firstAttribute="top" secondItem="rP1-VP-Gcy" secondAttribute="bottom" constant="8" symbolic="YES" id="qgv-K4-FuI"/>
-                            <constraint firstItem="7tC-bL-k0r" firstAttribute="top" secondItem="Ibl-lV-RRl" secondAttribute="bottom" constant="62" id="sYN-3A-93J"/>
                             <constraint firstItem="ERT-EF-iHs" firstAttribute="top" secondItem="nh8-D6-vOL" secondAttribute="bottom" constant="22" id="smr-fu-r41"/>
                             <constraint firstItem="Ibl-lV-RRl" firstAttribute="top" secondItem="LgC-hs-AJT" secondAttribute="bottom" id="t32-q1-s2G"/>
                             <constraint firstAttribute="trailing" secondItem="DBm-Ie-K6K" secondAttribute="trailing" id="w1N-HD-UCx"/>
@@ -567,6 +569,7 @@
                         <outlet property="m_emptyImageView" destination="sL7-Lk-x4k" id="L7e-65-i1I"/>
                         <outlet property="m_floorBttn" destination="hNU-iY-Dq1" id="PZe-lW-89Q"/>
                         <outlet property="m_navBar" destination="Ibl-lV-RRl" id="Kej-8y-Ckp"/>
+                        <outlet property="m_segmentedControl" destination="vi9-HU-8fX" id="zTZ-1v-mQi"/>
                         <outlet property="m_sequenceTimeLabel" destination="nh8-D6-vOL" id="OCg-t6-j0d"/>
                         <outlet property="m_sittingBttn" destination="6sE-Wa-lcw" id="35L-xQ-tR8"/>
                         <outlet property="m_ssyBttn" destination="yBf-bx-Vr7" id="5OR-zW-YMp"/>
