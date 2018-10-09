@@ -282,6 +282,7 @@
 		B6D5BE1F195B8A8D000E4566 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6D5BE1E195B8A8D000E4566 /* CoreText.framework */; };
 		B6D5BE21195B8AA7000E4566 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6D5BE20195B8AA7000E4566 /* CoreTelephony.framework */; };
 		B6D5BE23195B8AB6000E4566 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6D5BE22195B8AB6000E4566 /* AssetsLibrary.framework */; };
+		B6DC5ADE216D56E30060790F /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6DC5ADD216D56E30060790F /* Test.swift */; };
 		B6EC19EC173DCB5000FF525F /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6EC19EA173DCB5000FF525F /* AdSupport.framework */; };
 		B6EC19ED173DCB5000FF525F /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6EC19EB173DCB5000FF525F /* iAd.framework */; };
 		C001ACB416A7710500CCBFD8 /* ShareBttn~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = C001ACAC16A7710500CCBFD8 /* ShareBttn~ipad.png */; };
@@ -915,6 +916,7 @@
 		B6D5BE1E195B8A8D000E4566 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
 		B6D5BE20195B8AA7000E4566 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
 		B6D5BE22195B8AB6000E4566 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		B6DC5ADD216D56E30060790F /* Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
 		B6EC19EA173DCB5000FF525F /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
 		B6EC19EB173DCB5000FF525F /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
 		C001ACAC16A7710500CCBFD8 /* ShareBttn~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ShareBttn~ipad.png"; sourceTree = "<group>"; };
@@ -1792,6 +1794,7 @@
 				C047A14616A70CF500DCF7F5 /* Supporting Files */,
 				B675A67D170E4F6F00F0D372 /* TutorialData.plist */,
 				B622B334199A785A00C8C8EF /* Images.xcassets */,
+				B6DC5ADD216D56E30060790F /* Test.swift */,
 			);
 			path = SSY;
 			sourceTree = "<group>";
@@ -2867,15 +2870,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-SSY-checkManifestLockResult.txt",
 			);
@@ -2889,8 +2888,6 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-SSY/Pods-SSY-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/IAPManager/IAPManager.framework",
@@ -2899,8 +2896,6 @@
 				"${BUILT_PRODUCTS_DIR}/apptentive-ios/Apptentive.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IAPManager.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyStoreKit.framework",
@@ -2936,6 +2931,7 @@
 				B6C5A7D321484A4000D372B3 /* JustAnEmptyFile.swift in Sources */,
 				C0429C9E16B17B7800F6DC8A /* InfoViewController.m in Sources */,
 				C0429CAD16B18ED100F6DC8A /* WebViewController.m in Sources */,
+				B6DC5ADE216D56E30060790F /* Test.swift in Sources */,
 				C0F99F6F16B31AA9007985CA /* GuidelineViewController.m in Sources */,
 				C0F99F7616B32D17007985CA /* WCAlertView.m in Sources */,
 				C0F99F7916B35DCE007985CA /* SavedSequenceCell.m in Sources */,
